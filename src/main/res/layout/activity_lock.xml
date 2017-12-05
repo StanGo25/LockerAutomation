@@ -54,7 +54,7 @@
         android:layout_height="26dp"
         android:text="Click the button "
         tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="415dp" />
+        tools:layout_editor_absoluteY="409dp" />
 
 
 </android.support.constraint.ConstraintLayout>
