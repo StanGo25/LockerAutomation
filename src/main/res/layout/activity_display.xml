@@ -24,14 +24,14 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="297dp"
-        android:layout_height="164dp"
+        android:layout_width="277dp"
+        android:layout_height="43dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="296dp"
         android:text="DISPLAYING THE CLOCK"
         android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textSize="36sp"
+        android:textSize="24sp"
         app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
