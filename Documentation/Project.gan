@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="LockerAuto" company="Golden Phoenicks" webLink="http://StanGo25.github.io/LockerAuto" view-date="2017-09-17" view-index="0" gantt-divider-location="625" resource-divider-location="300" version="2.8.5" locale="en_CA">
+    <description><![CDATA[Control App for Locker Automation System]]></description>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Name" width="287" order="0"/>
+        <field id="tpd4" name="Begin date" width="166" order="1"/>
+        <field id="tpd5" name="End date" width="166" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="209" order="0"/>
+        <field id="1" name="Default role" width="85" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Project Proposal" color="#8cb6ce" meeting="false" start="2017-09-19" duration="1" complete="0" expand="true"/>
+        <task id="2" name="Gantt Chart and Project Plan" color="#8cb6ce" meeting="false" start="2017-09-27" duration="5" complete="3" expand="true"/>
+        <task id="4" name="Design Prototyping and Mock-ups" color="#8cb6ce" meeting="false" start="2017-09-26" duration="9" complete="0" expand="true">
+            <task id="19" name="Create basic layouts for each screen" color="#8cb6ce" meeting="false" start="2017-09-26" duration="7" complete="0" expand="true"/>
+            <task id="21" name="Develop preliminary Java classes" color="#8cb6ce" meeting="false" start="2017-09-29" duration="6" complete="0" expand="true"/>
+            <task id="23" name="Begin basic database layouts" color="#8cb6ce" meeting="false" start="2017-10-03" duration="4" complete="0" expand="true"/>
+        </task>
+        <task id="8" name="Feature Implementation &amp; Project Presentation" color="#8cb6ce" meeting="false" start="2017-10-06" duration="11" complete="0" expand="true">
+            <task id="18" name="Create Database" color="#8cb6ce" meeting="false" start="2017-10-06" duration="3" complete="0" expand="true"/>
+            <task id="27" name="Establish Connection between database and app" color="#8cb6ce" meeting="false" start="2017-10-09" duration="5" complete="0" expand="true"/>
+            <task id="30" name="Create framework for hardware I/O for future work" color="#8cb6ce" meeting="false" start="2017-10-16" duration="2" complete="0" expand="true"/>
+            <task id="33" name="Define themes and complete string translation into FR" color="#8cb6ce" meeting="false" start="2017-10-18" duration="3" complete="0" expand="true"/>
+        </task>
+        <task id="10" name="Working Beta Release" color="#8cb6ce" meeting="false" start="2017-10-20" duration="21" complete="0" expand="true">
+            <task id="35" name="Finalise layout decisions" color="#8cb6ce" meeting="false" start="2017-10-20" duration="2" complete="0" expand="true"/>
+            <task id="39" name="Integrate QR Code functionality" color="#8cb6ce" meeting="false" start="2017-10-20" duration="2" complete="0" expand="true"/>
+            <task id="41" name="Create Alphanumeric system for Serializing Products" color="#8cb6ce" meeting="false" start="2017-10-23" duration="5" complete="0" expand="true"/>
+            <task id="43" name="Create dummy product serial QR's to test app registration" color="#8cb6ce" meeting="false" start="2017-10-26" duration="2" complete="0" expand="true"/>
+            <task id="45" name="Beta testing and bug fixes" color="#8cb6ce" meeting="false" start="2017-10-27" duration="11" complete="0" expand="true"/>
+            <task id="48" name="UI layout completion and design freeze" color="#8cb6ce" meeting="false" start="2017-11-10" duration="6" complete="0" expand="true"/>
+        </task>
+        <task id="13" name="Integration with Cloud and Ensuring testing with multiple DPI and orientations" color="#8cb6ce" meeting="false" start="2017-11-17" duration="14" complete="0" expand="true"/>
+        <task id="16" name="Finalise build. Submit" color="#8cb6ce" meeting="false" start="2017-12-06" duration="7" complete="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
