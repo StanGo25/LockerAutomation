@@ -1,0 +1,4 @@
+#Sun Dec 10 18:21:38 EST 2017
+base.0=C\:\\Users\\stang\\AndroidStudioProjects\\FirstApp\\lockerauto\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
