@@ -1,7 +1,7 @@
 #Internal package file, do not edit.
-#Sun Dec 10 00:40:36 EST 2017
+#Sun Dec 10 19:06:08 EST 2017
 0.baseType=DIRECTORY
-0.base=C\:\\Users\\stang\\AndroidStudioProjects\\FirstApp\\lockerauto\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.base=C\:\\Users\\stang\\AndroidStudioProjects\\FirstApp\\LockerAutomation\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 0.path=classes.dex
 0.set=DEX
 count=1
