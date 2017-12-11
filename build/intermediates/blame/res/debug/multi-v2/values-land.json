@@ -4,16 +4,6 @@
             "outputFile": "/Users/jeremyrende/AndroidStudioProjects/LockerAutomation2/C:\\Users\\stang\\AndroidStudioProjects\\FirstApp\\lockerauto\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "/Users/jeremyrende/AndroidStudioProjects/LockerAutomation2/C:\\Users\\stang\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\0fe34d1fcb71fdd9be98128d8be7285f\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,125,189,260",
-                        "endColumns": "69,63,70,67",
-                        "endOffsets": "120,184,255,323"
-                    }
-                },
-                {
                     "source": "/Users/jeremyrende/AndroidStudioProjects/LockerAutomation2/C:\\Users\\stang\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ced917e86fdf677f9059b15cc6568886\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
@@ -30,6 +20,16 @@
                         "endLines": "9",
                         "endColumns": "12",
                         "endOffsets": "505"
+                    }
+                },
+                {
+                    "source": "/Users/jeremyrende/AndroidStudioProjects/LockerAutomation2/C:\\Users\\stang\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\0fe34d1fcb71fdd9be98128d8be7285f\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
                     }
                 }
             ]
@@ -72,16 +72,6 @@
             "outputFile": "/Users/jeremyrende/AndroidStudioProjects/LockerAutomation2/C:\\Users\\stang\\AndroidStudioProjects\\FirstApp\\LockerAutomation\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "/Users/jeremyrende/AndroidStudioProjects/LockerAutomation2/C:\\Users\\stang\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\0fe34d1fcb71fdd9be98128d8be7285f\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,125,189,260",
-                        "endColumns": "69,63,70,67",
-                        "endOffsets": "120,184,255,323"
-                    }
-                },
-                {
                     "source": "/Users/jeremyrende/AndroidStudioProjects/LockerAutomation2/C:\\Users\\stang\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ced917e86fdf677f9059b15cc6568886\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
@@ -98,6 +88,16 @@
                         "endLines": "9",
                         "endColumns": "12",
                         "endOffsets": "505"
+                    }
+                },
+                {
+                    "source": "/Users/jeremyrende/AndroidStudioProjects/LockerAutomation2/C:\\Users\\stang\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\0fe34d1fcb71fdd9be98128d8be7285f\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
                     }
                 }
             ]

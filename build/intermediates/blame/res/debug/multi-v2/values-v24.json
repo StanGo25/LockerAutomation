@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/jeremyrende/AndroidStudioProjects/LockerAutomation2/C:\\Users\\stang\\AndroidStudioProjects\\FirstApp\\LockerAutomation\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "/Users/jeremyrende/AndroidStudioProjects/LockerAutomation2/C:\\Users\\stang\\AndroidStudioProjects\\FirstApp\\lockerauto\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
                     "source": "/Users/jeremyrende/AndroidStudioProjects/LockerAutomation2/C:\\Users\\stang\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\f97ea3ffa293ea4b476d9a29adc37508\\res\\values-v24\\values-v24.xml",
@@ -33,7 +33,7 @@
             ]
         },
         {
-            "outputFile": "/Users/jeremyrende/AndroidStudioProjects/LockerAutomation2/C:\\Users\\stang\\AndroidStudioProjects\\FirstApp\\lockerauto\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "/Users/jeremyrende/AndroidStudioProjects/LockerAutomation2/C:\\Users\\stang\\AndroidStudioProjects\\FirstApp\\LockerAutomation\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
                     "source": "/Users/jeremyrende/AndroidStudioProjects/LockerAutomation2/C:\\Users\\stang\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\f97ea3ffa293ea4b476d9a29adc37508\\res\\values-v24\\values-v24.xml",
