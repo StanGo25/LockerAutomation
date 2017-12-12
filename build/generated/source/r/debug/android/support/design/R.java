@@ -742,8 +742,8 @@ public final class R {
         public static final int notification_template_icon_low_bg = 0x7f070089;
         public static final int notification_tile_bg = 0x7f07008a;
         public static final int notify_panel_notification_icon_bg = 0x7f07008b;
-        public static final int tooltip_frame_dark = 0x7f07008d;
-        public static final int tooltip_frame_light = 0x7f07008e;
+        public static final int tooltip_frame_dark = 0x7f070090;
+        public static final int tooltip_frame_light = 0x7f070091;
     }
     public static final class id {
         public static final int action0 = 0x7f080006;
@@ -772,23 +772,23 @@ public final class R {
         public static final int auto = 0x7f080021;
         public static final int blocking = 0x7f080024;
         public static final int bottom = 0x7f080025;
-        public static final int buttonPanel = 0x7f080027;
-        public static final int cancel_action = 0x7f080028;
-        public static final int center = 0x7f080029;
-        public static final int checkbox = 0x7f08002d;
-        public static final int chronometer = 0x7f08002e;
-        public static final int container = 0x7f080033;
-        public static final int contentPanel = 0x7f080034;
-        public static final int coordinator = 0x7f080036;
-        public static final int custom = 0x7f080037;
-        public static final int customPanel = 0x7f080038;
-        public static final int decor_content_parent = 0x7f08003a;
-        public static final int default_activity_button = 0x7f08003b;
-        public static final int design_bottom_sheet = 0x7f08003c;
-        public static final int design_menu_item_action_area = 0x7f08003d;
-        public static final int design_menu_item_action_area_stub = 0x7f08003e;
-        public static final int design_menu_item_text = 0x7f08003f;
-        public static final int design_navigation_view = 0x7f080040;
+        public static final int buttonPanel = 0x7f080026;
+        public static final int cancel_action = 0x7f080027;
+        public static final int center = 0x7f080028;
+        public static final int checkbox = 0x7f08002c;
+        public static final int chronometer = 0x7f08002d;
+        public static final int container = 0x7f080031;
+        public static final int contentPanel = 0x7f080032;
+        public static final int coordinator = 0x7f080034;
+        public static final int custom = 0x7f080035;
+        public static final int customPanel = 0x7f080036;
+        public static final int decor_content_parent = 0x7f080039;
+        public static final int default_activity_button = 0x7f08003a;
+        public static final int design_bottom_sheet = 0x7f08003b;
+        public static final int design_menu_item_action_area = 0x7f08003c;
+        public static final int design_menu_item_action_area_stub = 0x7f08003d;
+        public static final int design_menu_item_text = 0x7f08003e;
+        public static final int design_navigation_view = 0x7f08003f;
         public static final int edit_query = 0x7f080043;
         public static final int end = 0x7f080044;
         public static final int end_padder = 0x7f080045;
@@ -1000,13 +1000,13 @@ public final class R {
         public static final int appbar_scrolling_view_behavior = 0x7f0d0022;
         public static final int bottom_sheet_behavior = 0x7f0d0024;
         public static final int character_counter_pattern = 0x7f0d0025;
-        public static final int password_toggle_content_description = 0x7f0d0046;
-        public static final int path_password_eye = 0x7f0d0047;
-        public static final int path_password_eye_mask_strike_through = 0x7f0d0048;
-        public static final int path_password_eye_mask_visible = 0x7f0d0049;
-        public static final int path_password_strike_through = 0x7f0d004a;
-        public static final int search_menu_title = 0x7f0d004d;
-        public static final int status_bar_notification_info_overflow = 0x7f0d004e;
+        public static final int password_toggle_content_description = 0x7f0d0048;
+        public static final int path_password_eye = 0x7f0d0049;
+        public static final int path_password_eye_mask_strike_through = 0x7f0d004a;
+        public static final int path_password_eye_mask_visible = 0x7f0d004b;
+        public static final int path_password_strike_through = 0x7f0d004c;
+        public static final int search_menu_title = 0x7f0d004f;
+        public static final int status_bar_notification_info_overflow = 0x7f0d0050;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat = 0x7f0e0000;

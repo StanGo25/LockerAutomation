@@ -47,13 +47,19 @@ public class MenuActivity extends AppCompatActivity
         navigationView.getMenu().getItem(0).setChecked(true);
 
         // for testing whether user needs to register device or not
-//        Menu menuNav=navigationView.getMenu();
-//        MenuItem nav_item2 = menuNav.findItem(R.id.nav_lock);
-//        nav_item2.setEnabled(false);
-//        MenuItem nav_item3 = menuNav.findItem(R.id.nav_door);
-//        nav_item3.setEnabled(false);
-//        MenuItem nav_item4 = menuNav.findItem(R.id.nav_display);
-//        nav_item4.setEnabled(false);
+        Intent carried = getIntent();
+        int over=carried.getIntExtra("validate",0);
+
+        if(over==2) {
+            Menu menuNav = navigationView.getMenu();
+            MenuItem nav_item2 = menuNav.findItem(R.id.nav_lock);
+            nav_item2.setEnabled(false);
+            MenuItem nav_item3 = menuNav.findItem(R.id.nav_door);
+            nav_item3.setEnabled(false);
+            MenuItem nav_item4 = menuNav.findItem(R.id.nav_display);
+            nav_item4.setEnabled(false);
+        }
+        else{}
 
     }
 
@@ -68,19 +74,19 @@ public class MenuActivity extends AppCompatActivity
                 public void onClick(DialogInterface dialog, int which) {
                     switch (which){
                         case DialogInterface.BUTTON_POSITIVE:
-                            // close app fully, need to look into this more.
+                            finish();
                             break;
 
                         case DialogInterface.BUTTON_NEGATIVE:
-
                             break;
                     }
                 }
             };
 
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            builder.setMessage("Are you sure you want to exit the app?").setPositiveButton("Yes", dialogClickListener)
+            builder.setMessage("Are you sure you want to exit?\nYou will be logged out").setPositiveButton("Yes", dialogClickListener)
                     .setNegativeButton("No", dialogClickListener).show();
+
         }
     }
 

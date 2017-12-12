@@ -21,6 +21,11 @@
     <string name="lockOn">Lock is armed</string>
     <string name="lockOff">Lock is disarmed</string>
 
+    <string name="txttit">←  (-)           (+)  →</string>
+    <string name="dTxt">Open</string>
+    <string name="dsTxt">0</string>
+
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
