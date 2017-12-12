@@ -5,13 +5,13 @@ package ca.goldenphoenicks.lockerauto.databases;
  */
 public class Users {
 
-    @com.google.gson.annotations.SerializedName("user_id")
+//    @com.google.gson.annotations.SerializedName("user_id")
     private int id;
 
-    @com.google.gson.annotations.SerializedName("user_name")
+//    @com.google.gson.annotations.SerializedName("user_name")
     private String name;
 
-    @com.google.gson.annotations.SerializedName("user_pin")
+//    @com.google.gson.annotations.SerializedName("user_pin")
     private int pin;
 
     public Users() {
