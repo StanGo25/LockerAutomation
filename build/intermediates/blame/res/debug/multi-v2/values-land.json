@@ -1,6 +1,7 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\stang\\AndroidStudioProjects\\FirstApp\\LockerAutomation\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
@@ -15,6 +16,12 @@
                 },
                 {
                     "source": "C:\\Users\\stang\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ced917e86fdf677f9059b15cc6568886\\res\\values-land\\values-land.xml",
+=======
+            "outputFile": "/Users/jeremyrende/AndroidStudioProjects/LockerAutomation2/LockerAutomation/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/Users/jeremyrende/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/92d3fe7dc1e46bd56e1897abd7ae46e6/res/values-land/values-land.xml",
+>>>>>>> 685e090bad9fc5038e08579fa56db0672e7bcc60
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -31,6 +38,19 @@
                         "endColumns": "12",
                         "endOffsets": "505"
                     }
+<<<<<<< HEAD
+=======
+                },
+                {
+                    "source": "/Users/jeremyrende/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e9cc154b4af910ec4a05ed02cd4cb662/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+>>>>>>> 685e090bad9fc5038e08579fa56db0672e7bcc60
                 }
             ]
         }

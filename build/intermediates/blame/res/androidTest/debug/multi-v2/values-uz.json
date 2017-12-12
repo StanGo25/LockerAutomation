@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\stang\\AndroidStudioProjects\\FirstApp\\LockerAutomation\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-uz\\values-uz.xml",
             "map": [
                 {
                     "source": "C:\\Users\\stang\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.6.0.aar\\a1117cdc1082f58cd8a139c24fedfefb\\res\\values-uz\\values.xml",
+=======
+            "outputFile": "/Users/jeremyrende/AndroidStudioProjects/LockerAutomation2/LockerAutomation/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-uz/values-uz.xml",
+            "map": [
+                {
+                    "source": "/Users/jeremyrende/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.2.aar/3016088f114ce7d93e0e6d046e320688/res/values-uz/values.xml",
+>>>>>>> 685e090bad9fc5038e08579fa56db0672e7bcc60
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -21,7 +28,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\stang\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\0fe34d1fcb71fdd9be98128d8be7285f\\res\\values-uz\\values-uz.xml",
+                    "source": "/Users/jeremyrende/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e9cc154b4af910ec4a05ed02cd4cb662/res/values-uz/values-uz.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +45,11 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\stang\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.6.0.aar\\35eab60bc34986e65c9b6f0d20a2e493\\res\\values-uz\\values.xml",
+=======
+                    "source": "/Users/jeremyrende/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.2.aar/7064355f5ef881cdfb00523955a52986/res/values-uz/values.xml",
+>>>>>>> 685e090bad9fc5038e08579fa56db0672e7bcc60
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",

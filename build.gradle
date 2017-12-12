@@ -12,8 +12,15 @@ android {
         versionCode 1
         versionName "1.0"
         multiDexEnabled true
+<<<<<<< HEAD
+=======
+
+>>>>>>> 685e090bad9fc5038e08579fa56db0672e7bcc60
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
     }
 
     dexOptions {
@@ -38,8 +45,12 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+<<<<<<< HEAD
     compile 'com.google.android.gms:play-services-vision:11.6.0'
     compile 'com.microsoft.azure:azure-mobile-android:3.4.0'
+=======
+    compile 'com.google.android.gms:play-services-vision:11.6.2'
+>>>>>>> 685e090bad9fc5038e08579fa56db0672e7bcc60
     compile 'com.android.support:multidex:1.0.0'
 }
 
