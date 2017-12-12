@@ -6,7 +6,31 @@
         <Preference
             android:title="About us">
             <intent android:action="android.intent.action.VIEW"
-                android:data="http://www.google.ca"/>
+                android:data="https://github.com/StanGo25/LockerAutomation"/>
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Learn more"
+        android:persistent="false">
+        <Preference
+            android:title="Hardware Project Repositories: Yohaan">
+            <intent android:action="android.intent.action.VIEW"
+            android:data="https://yohaana.github.io/DCMotor/"/>
+        </Preference>
+        <Preference
+            android:title="Hardware Project Repositories: Jeremy">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="https://think430.github.io/MagLock/"/>
+        </Preference>
+        <Preference
+            android:title="Hardware Project Repositories: Stanley">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="https://stango25.github.io/Display/"/>
+        </Preference>
+        <Preference
+            android:title="Learn More About the College Faculty Strike">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="https://six0four.github.io/StudentSenseHat/"/>
         </Preference>
     </PreferenceCategory>
 </PreferenceScreen>
