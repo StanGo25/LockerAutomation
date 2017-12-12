@@ -1,5 +1,21 @@
 #Internal package file, do not edit.
+<<<<<<< HEAD
 #Mon Dec 11 23:11:42 EST 2017
+=======
+<<<<<<< HEAD
+#Mon Dec 11 21:16:59 EST 2017
+1.base=C\:\\Users\\stang\\AndroidStudioProjects\\FirstApp\\LockerAutomation\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=classes.dex
+0.set=DEX
+0.base=C\:\\Users\\stang\\AndroidStudioProjects\\FirstApp\\LockerAutomation\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+1.path=classes.dex
+=======
+#Mon Dec 11 20:36:03 EST 2017
+>>>>>>> e4c278aa431ae8bfd8ae183a4ea5009b284989be
 2.base=/Users/jeremyrende/AndroidStudioProjects/LockerAutomation2/LockerAutomation/build/intermediates/transforms/dexMerger/debug/17
 5.set=DEX
 0.path=classes.dex
@@ -25,3 +41,4 @@ count=6
 1.base=/Users/jeremyrende/AndroidStudioProjects/LockerAutomation2/LockerAutomation/build/intermediates/transforms/dexMerger/debug/14
 4.baseType=DIRECTORY
 0.set=DEX
+>>>>>>> 685e090bad9fc5038e08579fa56db0672e7bcc60

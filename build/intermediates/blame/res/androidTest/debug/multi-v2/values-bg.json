@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
+            "outputFile": "C:\\Users\\stang\\AndroidStudioProjects\\FirstApp\\LockerAutomation\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-bg\\values-bg.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\stang\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.6.0.aar\\a1117cdc1082f58cd8a139c24fedfefb\\res\\values-bg\\values.xml",
+=======
             "outputFile": "/Users/jeremyrende/AndroidStudioProjects/LockerAutomation2/LockerAutomation/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-bg/values-bg.xml",
             "map": [
                 {
                     "source": "/Users/jeremyrende/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.2.aar/3016088f114ce7d93e0e6d046e320688/res/values-bg/values.xml",
+>>>>>>> 685e090bad9fc5038e08579fa56db0672e7bcc60
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -19,6 +26,8 @@
                         "endColumns": "196",
                         "endOffsets": "3347"
                     }
+<<<<<<< HEAD
+=======
                 },
                 {
                     "source": "/Users/jeremyrende/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.2.aar/7064355f5ef881cdfb00523955a52986/res/values-bg/values.xml",
@@ -36,6 +45,7 @@
                         "endColumns": "110,196,136,112,225,136,137,227,113,205,139,215,195,99,88,101",
                         "endOffsets": "2202,2399,2536,2649,2875,3012,3150,3575,3689,3895,4035,4251,4447,4547,4636,4738"
                     }
+>>>>>>> 685e090bad9fc5038e08579fa56db0672e7bcc60
                 },
                 {
                     "source": "/Users/jeremyrende/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e9cc154b4af910ec4a05ed02cd4cb662/res/values-bg/values-bg.xml",
@@ -53,6 +63,26 @@
                         "endColumns": "114,110,127,106,104,85,104,120,78,77,82,113,108,99,113,105,107,122,98,82,100",
                         "endOffsets": "215,326,454,561,666,752,857,978,1057,1135,1218,1332,1441,1541,1655,1761,1869,1992,2091,4821,4922"
                     }
+<<<<<<< HEAD
+                },
+                {
+                    "source": "C:\\Users\\stang\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.6.0.aar\\35eab60bc34986e65c9b6f0d20a2e493\\res\\values-bg\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "283,390,587,720,829,1055,1188,1322,1550,1660,1866,2002,2218,2410,2506,2591",
+                        "endColumns": "106,196,132,108,225,132,133,227,109,205,135,215,191,95,84,97",
+                        "endOffsets": "389,586,719,828,1054,1187,1321,1549,1659,1865,2001,2217,2409,2505,2590,2688"
+                    },
+                    "to": {
+                        "startLines": "21,22,23,24,25,26,27,29,30,31,32,33,34,35,36,37",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2096,2207,2404,2541,2654,2880,3017,3352,3580,3694,3900,4040,4256,4452,4552,4641",
+                        "endColumns": "110,196,136,112,225,136,137,227,113,205,139,215,195,99,88,101",
+                        "endOffsets": "2202,2399,2536,2649,2875,3012,3150,3575,3689,3895,4035,4251,4447,4547,4636,4738"
+                    }
+=======
+>>>>>>> 685e090bad9fc5038e08579fa56db0672e7bcc60
                 }
             ]
         }

@@ -1,6 +1,12 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
+            "outputFile": "C:\\Users\\stang\\AndroidStudioProjects\\FirstApp\\LockerAutomation\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\stang\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.6.0.aar\\a1117cdc1082f58cd8a139c24fedfefb\\res\\values-zh-rTW\\values.xml",
+=======
             "outputFile": "/Users/jeremyrende/AndroidStudioProjects/LockerAutomation2/LockerAutomation/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
@@ -22,6 +28,7 @@
                 },
                 {
                     "source": "/Users/jeremyrende/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.2.aar/3016088f114ce7d93e0e6d046e320688/res/values-zh-rTW/values.xml",
+>>>>>>> 685e090bad9fc5038e08579fa56db0672e7bcc60
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -53,6 +60,26 @@
                         "endColumns": "94,106,122,92,99,81,96,107,75,75,77,95,95,94,96,94,99,112,93,77,100",
                         "endOffsets": "195,302,425,518,618,700,797,905,981,1057,1135,1231,1327,1422,1519,1614,1714,1827,1921,4177,4278"
                     }
+<<<<<<< HEAD
+                },
+                {
+                    "source": "C:\\Users\\stang\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.6.0.aar\\35eab60bc34986e65c9b6f0d20a2e493\\res\\values-zh-rTW\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "287,386,546,659,759,925,1039,1159,1328,1427,1587,1700,1861,1995,2077,2160",
+                        "endColumns": "98,159,112,99,165,113,119,168,98,159,112,160,133,81,82,98",
+                        "endOffsets": "385,545,658,758,924,1038,1158,1327,1426,1586,1699,1860,1994,2076,2159,2258"
+                    },
+                    "to": {
+                        "startLines": "21,22,23,24,25,26,27,29,30,31,32,33,34,35,36,37",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1926,2029,2189,2306,2410,2576,2694,2980,3149,3252,3412,3529,3690,3828,3914,4001",
+                        "endColumns": "102,159,116,103,165,117,123,168,102,159,116,160,137,85,86,102",
+                        "endOffsets": "2024,2184,2301,2405,2571,2689,2813,3144,3247,3407,3524,3685,3823,3909,3996,4099"
+                    }
+=======
+>>>>>>> 685e090bad9fc5038e08579fa56db0672e7bcc60
                 }
             ]
         }

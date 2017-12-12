@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
+            "outputFile": "C:\\Users\\stang\\AndroidStudioProjects\\FirstApp\\LockerAutomation\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v16\\values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\stang\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\0fe34d1fcb71fdd9be98128d8be7285f\\res\\values-v16\\values-v16.xml",
+=======
             "outputFile": "/Users/jeremyrende/AndroidStudioProjects/LockerAutomation2/LockerAutomation/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
                     "source": "/Users/jeremyrende/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e9cc154b4af910ec4a05ed02cd4cb662/res/values-v16/values-v16.xml",
+>>>>>>> 685e090bad9fc5038e08579fa56db0672e7bcc60
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +30,11 @@
                     }
                 },
                 {
+<<<<<<< HEAD
+                    "source": "C:\\Users\\stang\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f9a242ee2884c2b50a3b4b5eba16e1d4\\res\\values-v16\\values-v16.xml",
+=======
                     "source": "/Users/jeremyrende/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/0914cbb717becccff545a0ca7936bb6b/res/values-v16/values-v16.xml",
+>>>>>>> 685e090bad9fc5038e08579fa56db0672e7bcc60
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

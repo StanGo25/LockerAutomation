@@ -21,7 +21,11 @@
                     }
                 },
                 {
+<<<<<<< HEAD
+                    "source": "C:\\Users\\stang\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\0fe34d1fcb71fdd9be98128d8be7285f\\res\\values-v24\\values-v24.xml",
+=======
                     "source": "/Users/jeremyrende/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e9cc154b4af910ec4a05ed02cd4cb662/res/values-v24/values-v24.xml",
+>>>>>>> 685e090bad9fc5038e08579fa56db0672e7bcc60
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

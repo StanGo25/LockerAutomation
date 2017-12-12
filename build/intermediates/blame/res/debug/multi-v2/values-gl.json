@@ -1,10 +1,34 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
+            "outputFile": "C:\\Users\\stang\\AndroidStudioProjects\\FirstApp\\LockerAutomation\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-gl\\values-gl.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\stang\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.6.0.aar\\a1117cdc1082f58cd8a139c24fedfefb\\res\\values-gl\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "192",
+                        "endOffsets": "477"
+                    },
+                    "to": {
+                        "startLines": "28",
+                        "startColumns": "4",
+                        "startOffsets": "3118",
+                        "endColumns": "192",
+                        "endOffsets": "3306"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\stang\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.6.0.aar\\35eab60bc34986e65c9b6f0d20a2e493\\res\\values-gl\\values.xml",
+=======
             "outputFile": "/Users/jeremyrende/AndroidStudioProjects/LockerAutomation2/LockerAutomation/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gl/values-gl.xml",
             "map": [
                 {
                     "source": "/Users/jeremyrende/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.2.aar/7064355f5ef881cdfb00523955a52986/res/values-gl/values.xml",
+>>>>>>> 685e090bad9fc5038e08579fa56db0672e7bcc60
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -36,6 +60,8 @@
                         "endColumns": "111,107,122,111,107,84,101,125,83,80,81,106,108,98,107,103,106,121,99,81,100",
                         "endOffsets": "212,320,443,555,663,748,850,976,1060,1141,1223,1330,1439,1538,1646,1750,1857,1979,2079,4782,4883"
                     }
+<<<<<<< HEAD
+=======
                 },
                 {
                     "source": "/Users/jeremyrende/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.2.aar/3016088f114ce7d93e0e6d046e320688/res/values-gl/values.xml",
@@ -53,6 +79,7 @@
                         "endColumns": "192",
                         "endOffsets": "3306"
                     }
+>>>>>>> 685e090bad9fc5038e08579fa56db0672e7bcc60
                 }
             ]
         }

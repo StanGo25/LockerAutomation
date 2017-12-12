@@ -1,6 +1,10 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
+            "outputFile": "C:\\Users\\stang\\AndroidStudioProjects\\FirstApp\\LockerAutomation\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "map": [
+=======
             "outputFile": "/Users/jeremyrende/AndroidStudioProjects/LockerAutomation2/LockerAutomation/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
@@ -79,6 +83,7 @@
                         "endOffsets": "154,218,285,349,21098,21224,21681,21977,22316,22654"
                     }
                 },
+>>>>>>> 685e090bad9fc5038e08579fa56db0672e7bcc60
                 {
                     "source": "/Users/jeremyrende/AndroidStudioProjects/LockerAutomation2/LockerAutomation/src/main/res/values-v21/styles.xml",
                     "from": {

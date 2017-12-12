@@ -1,6 +1,10 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
+            "outputFile": "C:\\Users\\stang\\AndroidStudioProjects\\FirstApp\\LockerAutomation\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-km\\values-km.xml",
+            "map": [
+=======
             "outputFile": "/Users/jeremyrende/AndroidStudioProjects/LockerAutomation2/LockerAutomation/build/intermediates/incremental/mergeDebugResources/merged.dir/values-km/values-km.xml",
             "map": [
                 {
@@ -20,6 +24,7 @@
                         "endOffsets": "3261"
                     }
                 },
+>>>>>>> 685e090bad9fc5038e08579fa56db0672e7bcc60
                 {
                     "source": "/Users/jeremyrende/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e9cc154b4af910ec4a05ed02cd4cb662/res/values-km/values-km.xml",
                     "from": {
@@ -38,7 +43,11 @@
                     }
                 },
                 {
+<<<<<<< HEAD
+                    "source": "C:\\Users\\stang\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.6.0.aar\\35eab60bc34986e65c9b6f0d20a2e493\\res\\values-km\\values.xml",
+=======
                     "source": "/Users/jeremyrende/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.2.aar/7064355f5ef881cdfb00523955a52986/res/values-km/values.xml",
+>>>>>>> 685e090bad9fc5038e08579fa56db0672e7bcc60
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -53,6 +62,26 @@
                         "endColumns": "103,186,122,106,220,125,137,216,107,201,126,203,187,93,87,105",
                         "endOffsets": "2151,2338,2461,2568,2789,2915,3053,3478,3586,3788,3915,4119,4307,4401,4489,4595"
                     }
+<<<<<<< HEAD
+                },
+                {
+                    "source": "C:\\Users\\stang\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.6.0.aar\\a1117cdc1082f58cd8a139c24fedfefb\\res\\values-km\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "207",
+                        "endOffsets": "492"
+                    },
+                    "to": {
+                        "startLines": "28",
+                        "startColumns": "4",
+                        "startOffsets": "3058",
+                        "endColumns": "207",
+                        "endOffsets": "3261"
+                    }
+=======
+>>>>>>> 685e090bad9fc5038e08579fa56db0672e7bcc60
                 }
             ]
         }

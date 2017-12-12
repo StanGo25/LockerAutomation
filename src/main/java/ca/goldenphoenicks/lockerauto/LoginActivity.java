@@ -1,5 +1,8 @@
 package ca.goldenphoenicks.lockerauto;
 
+import com.microsoft.windowsazure.mobileservices.*;
+import com.microsoft.windowsazure.mobileservices.table.MobileServiceTable;
+
 import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
@@ -14,19 +17,25 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.net.MalformedURLException;
+import java.util.List;
+import java.util.concurrent.ExecutionException;
 
+import ca.goldenphoenicks.lockerauto.databases.Users;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
     String FILENAME;
+    private MobileServiceClient mClient;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
@@ -73,6 +82,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         }
 
     }
+
 
     public String ValidatePin(String PIN)
     {
