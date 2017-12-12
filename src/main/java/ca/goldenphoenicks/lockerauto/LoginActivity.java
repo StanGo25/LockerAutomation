@@ -48,7 +48,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         switch(view.getId())
         {
             case R.id.valPin:
-                if(!ValidatePin(pinput).equals(pinput)) {
+                if(!ValidatePin().equals(pinput)) {
                     Context context = getApplicationContext();
 
                     CharSequence text = getString(R.string.validate_err);
@@ -65,6 +65,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             case R.id.valReg:
                 RegisterPIN(pinput);
                 nextAct.putExtra("validate",2);
+
                 startActivity(nextAct);
                 break;
 
@@ -74,7 +75,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     }
 
-    public String ValidatePin(String PIN)
+    public String ValidatePin()
     {
         String savedPIN = null;
         try {

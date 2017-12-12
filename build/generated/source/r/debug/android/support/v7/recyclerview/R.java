@@ -86,7 +86,7 @@ public final class R {
         public static final int actions = 0x7f080018;
         public static final int async = 0x7f080020;
         public static final int blocking = 0x7f080024;
-        public static final int chronometer = 0x7f08002e;
+        public static final int chronometer = 0x7f08002d;
         public static final int forever = 0x7f08004f;
         public static final int icon = 0x7f080053;
         public static final int icon_group = 0x7f080054;
@@ -118,7 +118,7 @@ public final class R {
         public static final int notification_template_part_time = 0x7f0a0042;
     }
     public static final class string {
-        public static final int status_bar_notification_info_overflow = 0x7f0d004e;
+        public static final int status_bar_notification_info_overflow = 0x7f0d0050;
     }
     public static final class style {
         public static final int TextAppearance_Compat_Notification = 0x7f0e0103;

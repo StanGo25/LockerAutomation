@@ -1,5 +1,6 @@
 package ca.goldenphoenicks.lockerauto;
 
+import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
@@ -10,6 +11,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 /**
@@ -18,7 +20,7 @@ import android.widget.TextView;
 
 public class LockActivity extends AppCompatActivity implements View.OnClickListener {
 
-
+    private ImageButton img;
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
@@ -33,9 +35,9 @@ public class LockActivity extends AppCompatActivity implements View.OnClickListe
         }
 
 
-        Button lockNow=(Button) findViewById(R.id.lockNow);
+        img=(ImageButton) findViewById(R.id.lockNow);
 
-        lockNow.setOnClickListener(this);
+        img.setOnClickListener(this);
     }
 
     @Override
@@ -58,11 +60,16 @@ public class LockActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
         TextView locking=(TextView)findViewById(R.id.locking);
+        ImageButton change = findViewById(R.id.lockNow);
         if(locking.getText().toString().equals(getString(R.string.lockOn)))
         {
             locking.setText(R.string.lockOff);
+            change.setBackgroundResource(R.drawable.off);
+
         } else {
             locking.setText(R.string.lockOn);
+            change.setBackgroundResource(R.drawable.on);
+
         }
     }
 }
