@@ -1,42 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\jeremyrende\\AndroidStudioProjects\\LockerAutomation2\\LockerAutomation\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v22\\values-v22.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\jeremyrende\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e9cc154b4af910ec4a05ed02cd4cb662\\res\\values-v22\\values-v22.xml",
-                    "from": {
-                        "startLines": "2,3,4,9",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,130,217,553",
-                        "endLines": "2,3,8,13",
-                        "endColumns": "74,86,12,12",
-                        "endOffsets": "125,212,548,896"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\stang\\AndroidStudioProjects\\FirstApp\\LockerAutomation\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
                     "source": "C:\\Users\\stang\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\0fe34d1fcb71fdd9be98128d8be7285f\\res\\values-v22\\values-v22.xml",
-                    "from": {
-                        "startLines": "2,3,4,9",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,130,217,553",
-                        "endLines": "2,3,8,13",
-                        "endColumns": "74,86,12,12",
-                        "endOffsets": "125,212,548,896"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\jeremyrende\\AndroidStudioProjects\\LockerAutomation2\\C:\\Users\\stang\\AndroidStudioProjects\\FirstApp\\lockerauto\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v22\\values-v22.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\jeremyrende\\AndroidStudioProjects\\LockerAutomation2\\C:\\Users\\stang\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\0fe34d1fcb71fdd9be98128d8be7285f\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

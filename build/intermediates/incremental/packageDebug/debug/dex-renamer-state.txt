@@ -1,9 +1,7 @@
-<<<<<<< HEAD
-#Mon Dec 11 15:46:10 EST 2017
-base.0=C\:\\Users\\stang\\AndroidStudioProjects\\FirstApp\\LockerAutomation\\build\\intermediates\\transforms\\dexMerger\\debug\\19
-=======
-#Mon Dec 11 16:35:51 EST 2017
+#Mon Dec 11 21:16:59 EST 2017
+base.0=C\:\\Users\\stang\\AndroidStudioProjects\\FirstApp\\LockerAutomation\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.1=classes.dex
->>>>>>> 3c920c437f67342f95e62a3489b93be553a58b26
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=C\:\\Users\\stang\\AndroidStudioProjects\\FirstApp\\LockerAutomation\\build\\intermediates\\transforms\\dexMerger\\debug\\1
