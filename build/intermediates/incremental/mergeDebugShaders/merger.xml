@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<merger version="3"><dataSet config="main"><source path="C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\debug\shaders"/></dataSet></merger>
-=======
-<merger version="3"><dataSet config="main"><source path="/Users/jeremyrende/AndroidStudioProjects/LockerAuto/LockerAutomation/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Users/jeremyrende/AndroidStudioProjects/LockerAuto/LockerAutomation/src/debug/shaders"/></dataSet></merger>
->>>>>>> 9d1eb20484deb94e6983f7110f97b04eb562e6a8
