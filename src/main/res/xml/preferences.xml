@@ -6,7 +6,7 @@
         <Preference
             android:title="About us">
             <intent android:action="android.intent.action.VIEW"
-                android:data="http://www.google.ca"/>
+                android:data="https://youtu.be/pGL2rytTraA?t=5s"/>
         </Preference>
     </PreferenceCategory>
 </PreferenceScreen>
