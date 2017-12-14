@@ -19,7 +19,7 @@ import android.view.MenuItem;
 
 public class MenuActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
+public static Menu menuNav;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,9 +49,9 @@ public class MenuActivity extends AppCompatActivity
         // for testing whether user needs to register device or not
         Intent carried = getIntent();
         int over=carried.getIntExtra("validate",0);
-
+        menuNav = navigationView.getMenu();
         if(over==2) {
-            Menu menuNav = navigationView.getMenu();
+
             MenuItem nav_item2 = menuNav.findItem(R.id.nav_lock);
             nav_item2.setEnabled(false);
             MenuItem nav_item3 = menuNav.findItem(R.id.nav_door);
@@ -59,7 +59,8 @@ public class MenuActivity extends AppCompatActivity
             MenuItem nav_item4 = menuNav.findItem(R.id.nav_display);
             nav_item4.setEnabled(false);
         }
-        else{}
+        else{            MenuItem nav_item4 = menuNav.findItem(R.id.nav_qr_scanner);
+            nav_item4.setEnabled(false);}
 
     }
 

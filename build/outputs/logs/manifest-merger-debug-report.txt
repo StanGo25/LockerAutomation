@@ -1,311 +1,311 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:2:1-66:12
-MERGED from [com.google.android.gms:play-services-vision:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.4.2.aar\df943f8c0b92462e4f4b618a916b6cff\AndroidManifest.xml:2:1-5:12
-MERGED from [com.android.support:design:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\ced917e86fdf677f9059b15cc6568886\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\0fe34d1fcb71fdd9be98128d8be7285f\AndroidManifest.xml:17:1-31:12
-MERGED from [com.google.android.gms:play-services-vision-common:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.4.2.aar\8908572f90ca8441da79685cd0587cd0\AndroidManifest.xml:2:1-5:12
-MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\5864850f874caa6412f4397d2b7caaf6\AndroidManifest.xml:16:1-21:12
-MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\62aaa36ecf228a071b919517147255db\AndroidManifest.xml:2:1-5:12
-MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\650add4ba09c06bee38e73f616821e22\AndroidManifest.xml:16:1-23:12
-MERGED from [com.android.support:transition:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\e11a2e48281ed632b8326c6866fcb57a\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\2371e902b94fcc950769cf657a75a02b\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\02a13b10dcefba0223c181407c6012ad\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.gms:play-services-vision-license:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.4.2.aar\2dfb5b350dca589b84889020d70c6253\AndroidManifest.xml:2:1-6:12
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9383c598f433c9d25454a95f48d6208a\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7dc54f1003b1ef60292a7279ff08061f\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3bb6054cb39bb58e542f585fa7ea25fe\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\1017a6897667610ea9d79a6f87612289\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ff279931e94523e72bae8b39379e2b26\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\f97ea3ffa293ea4b476d9a29adc37508\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\51bf870c92ecae56c657c96c88566cd2\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f9a242ee2884c2b50a3b4b5eba16e1d4\AndroidManifest.xml:17:1-31:12
-MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\ab766e2ab4f9d8a921efcdeabf2a87aa\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\0b3e6212cb83766030736db4f2bcfe71\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-vision-common-license:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.4.2.aar\2d020e1dce2d108fe5093b7693d15647\AndroidManifest.xml:2:1-6:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f42cc14c16feca1e79dd1aa3a177f91a\AndroidManifest.xml:17:1-30:12
-MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\8415cb2983fa5ae1785b995f3b94a516\AndroidManifest.xml:2:1-6:12
-INJECTED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:2:1-66:12
+ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:2:1-66:12
+MERGED from [com.google.android.gms:play-services-vision:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.4.2.aar\47b7f08bdc41b5a2d56e10d71ea36bc4\AndroidManifest.xml:2:1-5:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a4e63c8bbb21b0588674b51402f6fd6a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\fe45408b5ffabee2cdb443ce1c94429e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-vision-common:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.4.2.aar\8830aa5deb91aa6977d4d96c1beac670\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\6dbf321b5733fbaddaa39aeef8dab569\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\89461bed747b619bb593145dabc1a7bd\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\7f19545a3219d649e968f1db5f9fc5bb\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\6edce257ac1f2868cbd0030b8ea49bf8\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9df9258d5ee1849f3f9d831d6361d777\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4c1159da090786f589bf28ac5cde1f83\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-vision-license:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.4.2.aar\d8b40f28623a37408e8fd9273d21eb56\AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\40dc9956eee4c15f895a0a19ed11198f\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\3eaf803a5af1ab8387eec1ab073c3a1b\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\d54248d27e3e3c5123fb4a0cf5381c07\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\73ade54962094fd4fc6e3bd9c18ead5e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\fa041f4ae4ebe480b4b84c2e4f497c36\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a19b2715258e18ce46d8c9ec79c3368b\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\c994398a7d81b19ff5bd98333b09e5c4\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\0b8cafdc81150bf38f97b7cd5eea387c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\e0eb8d43dbadf9008a1035fcc332f15f\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\717eb09337e1069b30f0cea1f2a90262\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.4.2.aar\0daeb19ac4afe20ca717257f945cc9ac\AndroidManifest.xml:2:1-6:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\349913c7fdd4669278ccb457d69ff48e\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\a87152e9a8fa9a4254c0cfaf90377704\AndroidManifest.xml:2:1-6:12
+INJECTED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:2:1-66:12
 	package
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:3:5-44
-		INJECTED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:2:1-66:12
-		INJECTED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:2:1-66:12
+		INJECTED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:2:1-66:12
-		INJECTED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:2:1-66:12
+		INJECTED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:5:5-65
+ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:5:5-65
 	android:name
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:5:22-62
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:5:22-62
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:6:5-80
+ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:6:5-80
 	android:name
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:6:22-78
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:6:22-78
 application
-ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:8:5-64:19
-MERGED from [com.google.android.gms:play-services-vision:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.4.2.aar\df943f8c0b92462e4f4b618a916b6cff\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-vision:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.4.2.aar\df943f8c0b92462e4f4b618a916b6cff\AndroidManifest.xml:4:5-19
-MERGED from [com.android.support:design:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\ced917e86fdf677f9059b15cc6568886\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:design:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\ced917e86fdf677f9059b15cc6568886\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\0fe34d1fcb71fdd9be98128d8be7285f\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\0fe34d1fcb71fdd9be98128d8be7285f\AndroidManifest.xml:25:5-29:19
-MERGED from [com.google.android.gms:play-services-vision-common:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.4.2.aar\8908572f90ca8441da79685cd0587cd0\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-vision-common:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.4.2.aar\8908572f90ca8441da79685cd0587cd0\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\5864850f874caa6412f4397d2b7caaf6\AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\5864850f874caa6412f4397d2b7caaf6\AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\62aaa36ecf228a071b919517147255db\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\62aaa36ecf228a071b919517147255db\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\650add4ba09c06bee38e73f616821e22\AndroidManifest.xml:19:5-21:19
-MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\650add4ba09c06bee38e73f616821e22\AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:transition:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\e11a2e48281ed632b8326c6866fcb57a\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\e11a2e48281ed632b8326c6866fcb57a\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\2371e902b94fcc950769cf657a75a02b\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\2371e902b94fcc950769cf657a75a02b\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\02a13b10dcefba0223c181407c6012ad\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\02a13b10dcefba0223c181407c6012ad\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-vision-license:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.4.2.aar\2dfb5b350dca589b84889020d70c6253\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-vision-license:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.4.2.aar\2dfb5b350dca589b84889020d70c6253\AndroidManifest.xml:5:5-20
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9383c598f433c9d25454a95f48d6208a\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9383c598f433c9d25454a95f48d6208a\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7dc54f1003b1ef60292a7279ff08061f\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7dc54f1003b1ef60292a7279ff08061f\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3bb6054cb39bb58e542f585fa7ea25fe\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3bb6054cb39bb58e542f585fa7ea25fe\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\1017a6897667610ea9d79a6f87612289\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\1017a6897667610ea9d79a6f87612289\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ff279931e94523e72bae8b39379e2b26\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ff279931e94523e72bae8b39379e2b26\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\f97ea3ffa293ea4b476d9a29adc37508\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\f97ea3ffa293ea4b476d9a29adc37508\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\51bf870c92ecae56c657c96c88566cd2\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\51bf870c92ecae56c657c96c88566cd2\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f9a242ee2884c2b50a3b4b5eba16e1d4\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f9a242ee2884c2b50a3b4b5eba16e1d4\AndroidManifest.xml:25:5-29:19
-MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\ab766e2ab4f9d8a921efcdeabf2a87aa\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\ab766e2ab4f9d8a921efcdeabf2a87aa\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\0b3e6212cb83766030736db4f2bcfe71\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\0b3e6212cb83766030736db4f2bcfe71\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-vision-common-license:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.4.2.aar\2d020e1dce2d108fe5093b7693d15647\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-vision-common-license:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.4.2.aar\2d020e1dce2d108fe5093b7693d15647\AndroidManifest.xml:5:5-20
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f42cc14c16feca1e79dd1aa3a177f91a\AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f42cc14c16feca1e79dd1aa3a177f91a\AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\8415cb2983fa5ae1785b995f3b94a516\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\8415cb2983fa5ae1785b995f3b94a516\AndroidManifest.xml:5:5-20
+ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:8:5-64:19
+MERGED from [com.google.android.gms:play-services-vision:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.4.2.aar\47b7f08bdc41b5a2d56e10d71ea36bc4\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.4.2.aar\47b7f08bdc41b5a2d56e10d71ea36bc4\AndroidManifest.xml:4:5-19
+MERGED from [com.android.support:design:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a4e63c8bbb21b0588674b51402f6fd6a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a4e63c8bbb21b0588674b51402f6fd6a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\fe45408b5ffabee2cdb443ce1c94429e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\fe45408b5ffabee2cdb443ce1c94429e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services-vision-common:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.4.2.aar\8830aa5deb91aa6977d4d96c1beac670\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.4.2.aar\8830aa5deb91aa6977d4d96c1beac670\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\6dbf321b5733fbaddaa39aeef8dab569\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\6dbf321b5733fbaddaa39aeef8dab569\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\89461bed747b619bb593145dabc1a7bd\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\89461bed747b619bb593145dabc1a7bd\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\7f19545a3219d649e968f1db5f9fc5bb\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\7f19545a3219d649e968f1db5f9fc5bb\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\6edce257ac1f2868cbd0030b8ea49bf8\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\6edce257ac1f2868cbd0030b8ea49bf8\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9df9258d5ee1849f3f9d831d6361d777\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9df9258d5ee1849f3f9d831d6361d777\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4c1159da090786f589bf28ac5cde1f83\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4c1159da090786f589bf28ac5cde1f83\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-vision-license:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.4.2.aar\d8b40f28623a37408e8fd9273d21eb56\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision-license:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.4.2.aar\d8b40f28623a37408e8fd9273d21eb56\AndroidManifest.xml:5:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\40dc9956eee4c15f895a0a19ed11198f\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\40dc9956eee4c15f895a0a19ed11198f\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\3eaf803a5af1ab8387eec1ab073c3a1b\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\3eaf803a5af1ab8387eec1ab073c3a1b\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\d54248d27e3e3c5123fb4a0cf5381c07\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\d54248d27e3e3c5123fb4a0cf5381c07\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\73ade54962094fd4fc6e3bd9c18ead5e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\73ade54962094fd4fc6e3bd9c18ead5e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\fa041f4ae4ebe480b4b84c2e4f497c36\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\fa041f4ae4ebe480b4b84c2e4f497c36\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a19b2715258e18ce46d8c9ec79c3368b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a19b2715258e18ce46d8c9ec79c3368b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\c994398a7d81b19ff5bd98333b09e5c4\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\c994398a7d81b19ff5bd98333b09e5c4\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\0b8cafdc81150bf38f97b7cd5eea387c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\0b8cafdc81150bf38f97b7cd5eea387c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\e0eb8d43dbadf9008a1035fcc332f15f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\e0eb8d43dbadf9008a1035fcc332f15f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\717eb09337e1069b30f0cea1f2a90262\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\717eb09337e1069b30f0cea1f2a90262\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.4.2.aar\0daeb19ac4afe20ca717257f945cc9ac\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.4.2.aar\0daeb19ac4afe20ca717257f945cc9ac\AndroidManifest.xml:5:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\349913c7fdd4669278ccb457d69ff48e\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\349913c7fdd4669278ccb457d69ff48e\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\a87152e9a8fa9a4254c0cfaf90377704\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\a87152e9a8fa9a4254c0cfaf90377704\AndroidManifest.xml:5:5-20
 	android:supportsRtl
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:11:9-41
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:10:9-43
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:14:9-40
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:14:9-40
 activity#ca.goldenphoenicks.lockerauto.LoginActivity
-ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:15:9-24:20
+ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:15:9-24:20
 	android:label
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:17:13-45
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:17:13-45
 	android:theme
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:18:13-44
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:18:13-44
 	android:name
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:16:13-42
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:16:13-42
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:20:17-69
+ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:20:25-66
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:22:17-77
+ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:22:27-74
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:22:27-74
 activity#ca.goldenphoenicks.lockerauto.MenuActivity
-ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:25:9-29:20
+ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:25:9-29:20
 	android:label
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:27:13-38
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:27:13-38
 	android:theme
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:28:13-56
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:28:13-56
 	android:name
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:26:13-41
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:26:13-41
 activity#ca.goldenphoenicks.lockerauto.SettingsActivity
-ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:30:9-35:15
+ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:30:9-35:15
 	android:parentActivityName
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:34:13-55
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:34:13-55
 	android:label
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:32:13-37
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:32:13-37
 	android:theme
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:33:13-44
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:33:13-44
 	android:name
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:31:13-45
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:31:13-45
 activity#ca.goldenphoenicks.lockerauto.DisplayActivity
-ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:37:9-42:15
+ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:37:9-42:15
 	android:parentActivityName
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:41:13-55
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:41:13-55
 	android:label
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:39:13-43
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:39:13-43
 	android:theme
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:40:13-56
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:40:13-56
 	android:name
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:38:13-44
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:38:13-44
 activity#ca.goldenphoenicks.lockerauto.LockActivity
-ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:43:9-48:15
+ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:43:9-48:15
 	android:parentActivityName
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:47:13-55
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:47:13-55
 	android:label
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:45:13-45
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:45:13-45
 	android:theme
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:46:13-56
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:46:13-56
 	android:name
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:44:13-41
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:44:13-41
 activity#ca.goldenphoenicks.lockerauto.DoorActivity
-ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:49:9-54:15
+ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:49:9-54:15
 	android:parentActivityName
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:53:13-55
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:53:13-55
 	android:label
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:51:13-45
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:51:13-45
 	android:theme
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:52:13-56
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:52:13-56
 	android:name
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:50:13-41
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:50:13-41
 activity#ca.goldenphoenicks.lockerauto.QRActivity
-ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:55:9-60:15
+ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:55:9-60:15
 	android:parentActivityName
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:59:13-55
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:59:13-55
 	android:label
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:57:13-46
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:57:13-46
 	android:theme
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:58:13-56
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:58:13-56
 	android:name
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:56:13-39
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:56:13-39
 activity#ca.goldenphoenicks.lockerauto.barcode.BarcodeCaptureActivity
-ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:61:9-63:15
+ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:61:9-63:15
 	android:theme
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:62:13-56
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:62:13-56
 	android:name
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml:61:19-65
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml:61:19-65
 uses-sdk
-INJECTED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml
-INJECTED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml
-MERGED from [com.google.android.gms:play-services-vision:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.4.2.aar\df943f8c0b92462e4f4b618a916b6cff\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-vision:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.4.2.aar\df943f8c0b92462e4f4b618a916b6cff\AndroidManifest.xml:3:5-43
-MERGED from [com.android.support:design:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\ced917e86fdf677f9059b15cc6568886\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\ced917e86fdf677f9059b15cc6568886\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\0fe34d1fcb71fdd9be98128d8be7285f\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\0fe34d1fcb71fdd9be98128d8be7285f\AndroidManifest.xml:21:5-23:78
-MERGED from [com.google.android.gms:play-services-vision-common:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.4.2.aar\8908572f90ca8441da79685cd0587cd0\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-vision-common:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.4.2.aar\8908572f90ca8441da79685cd0587cd0\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\5864850f874caa6412f4397d2b7caaf6\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\5864850f874caa6412f4397d2b7caaf6\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\62aaa36ecf228a071b919517147255db\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\62aaa36ecf228a071b919517147255db\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\650add4ba09c06bee38e73f616821e22\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\650add4ba09c06bee38e73f616821e22\AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:transition:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\e11a2e48281ed632b8326c6866fcb57a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\e11a2e48281ed632b8326c6866fcb57a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\2371e902b94fcc950769cf657a75a02b\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\2371e902b94fcc950769cf657a75a02b\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\02a13b10dcefba0223c181407c6012ad\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\02a13b10dcefba0223c181407c6012ad\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-vision-license:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.4.2.aar\2dfb5b350dca589b84889020d70c6253\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-vision-license:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.4.2.aar\2dfb5b350dca589b84889020d70c6253\AndroidManifest.xml:4:5-43
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9383c598f433c9d25454a95f48d6208a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9383c598f433c9d25454a95f48d6208a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7dc54f1003b1ef60292a7279ff08061f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7dc54f1003b1ef60292a7279ff08061f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3bb6054cb39bb58e542f585fa7ea25fe\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3bb6054cb39bb58e542f585fa7ea25fe\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\1017a6897667610ea9d79a6f87612289\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\1017a6897667610ea9d79a6f87612289\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ff279931e94523e72bae8b39379e2b26\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ff279931e94523e72bae8b39379e2b26\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\f97ea3ffa293ea4b476d9a29adc37508\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\f97ea3ffa293ea4b476d9a29adc37508\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\51bf870c92ecae56c657c96c88566cd2\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\51bf870c92ecae56c657c96c88566cd2\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f9a242ee2884c2b50a3b4b5eba16e1d4\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f9a242ee2884c2b50a3b4b5eba16e1d4\AndroidManifest.xml:21:5-23:58
-MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\ab766e2ab4f9d8a921efcdeabf2a87aa\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\ab766e2ab4f9d8a921efcdeabf2a87aa\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\0b3e6212cb83766030736db4f2bcfe71\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\0b3e6212cb83766030736db4f2bcfe71\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-vision-common-license:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.4.2.aar\2d020e1dce2d108fe5093b7693d15647\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-vision-common-license:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.4.2.aar\2d020e1dce2d108fe5093b7693d15647\AndroidManifest.xml:4:5-43
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f42cc14c16feca1e79dd1aa3a177f91a\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f42cc14c16feca1e79dd1aa3a177f91a\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\8415cb2983fa5ae1785b995f3b94a516\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\8415cb2983fa5ae1785b995f3b94a516\AndroidManifest.xml:4:5-43
-INJECTED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml
-INJECTED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml
+INJECTED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml
+INJECTED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml
+MERGED from [com.google.android.gms:play-services-vision:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.4.2.aar\47b7f08bdc41b5a2d56e10d71ea36bc4\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.4.2.aar\47b7f08bdc41b5a2d56e10d71ea36bc4\AndroidManifest.xml:3:5-43
+MERGED from [com.android.support:design:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a4e63c8bbb21b0588674b51402f6fd6a\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a4e63c8bbb21b0588674b51402f6fd6a\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\fe45408b5ffabee2cdb443ce1c94429e\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\fe45408b5ffabee2cdb443ce1c94429e\AndroidManifest.xml:21:5-23:78
+MERGED from [com.google.android.gms:play-services-vision-common:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.4.2.aar\8830aa5deb91aa6977d4d96c1beac670\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.4.2.aar\8830aa5deb91aa6977d4d96c1beac670\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\6dbf321b5733fbaddaa39aeef8dab569\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\6dbf321b5733fbaddaa39aeef8dab569\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\89461bed747b619bb593145dabc1a7bd\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\89461bed747b619bb593145dabc1a7bd\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\7f19545a3219d649e968f1db5f9fc5bb\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\7f19545a3219d649e968f1db5f9fc5bb\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:transition:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\6edce257ac1f2868cbd0030b8ea49bf8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\6edce257ac1f2868cbd0030b8ea49bf8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9df9258d5ee1849f3f9d831d6361d777\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9df9258d5ee1849f3f9d831d6361d777\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4c1159da090786f589bf28ac5cde1f83\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4c1159da090786f589bf28ac5cde1f83\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-vision-license:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.4.2.aar\d8b40f28623a37408e8fd9273d21eb56\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision-license:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.4.2.aar\d8b40f28623a37408e8fd9273d21eb56\AndroidManifest.xml:4:5-43
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\40dc9956eee4c15f895a0a19ed11198f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\40dc9956eee4c15f895a0a19ed11198f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\3eaf803a5af1ab8387eec1ab073c3a1b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\3eaf803a5af1ab8387eec1ab073c3a1b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\d54248d27e3e3c5123fb4a0cf5381c07\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\d54248d27e3e3c5123fb4a0cf5381c07\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\73ade54962094fd4fc6e3bd9c18ead5e\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\73ade54962094fd4fc6e3bd9c18ead5e\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\fa041f4ae4ebe480b4b84c2e4f497c36\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\fa041f4ae4ebe480b4b84c2e4f497c36\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a19b2715258e18ce46d8c9ec79c3368b\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a19b2715258e18ce46d8c9ec79c3368b\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\c994398a7d81b19ff5bd98333b09e5c4\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\c994398a7d81b19ff5bd98333b09e5c4\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\0b8cafdc81150bf38f97b7cd5eea387c\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\0b8cafdc81150bf38f97b7cd5eea387c\AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\e0eb8d43dbadf9008a1035fcc332f15f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\e0eb8d43dbadf9008a1035fcc332f15f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\717eb09337e1069b30f0cea1f2a90262\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\717eb09337e1069b30f0cea1f2a90262\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.4.2.aar\0daeb19ac4afe20ca717257f945cc9ac\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.4.2.aar\0daeb19ac4afe20ca717257f945cc9ac\AndroidManifest.xml:4:5-43
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\349913c7fdd4669278ccb457d69ff48e\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\349913c7fdd4669278ccb457d69ff48e\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\a87152e9a8fa9a4254c0cfaf90377704\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\a87152e9a8fa9a4254c0cfaf90377704\AndroidManifest.xml:4:5-43
+INJECTED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml
+INJECTED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\ced917e86fdf677f9059b15cc6568886\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a4e63c8bbb21b0588674b51402f6fd6a\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml
-		ADDED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\stang\AndroidStudioProjects\FirstApp\LockerAutomation\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml
+		ADDED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\JETBLASTIX\Desktop\LockerAutomation\LockerAutomation\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\ced917e86fdf677f9059b15cc6568886\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\0fe34d1fcb71fdd9be98128d8be7285f\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\0fe34d1fcb71fdd9be98128d8be7285f\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:transition:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\e11a2e48281ed632b8326c6866fcb57a\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\e11a2e48281ed632b8326c6866fcb57a\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\2371e902b94fcc950769cf657a75a02b\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\2371e902b94fcc950769cf657a75a02b\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9383c598f433c9d25454a95f48d6208a\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9383c598f433c9d25454a95f48d6208a\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7dc54f1003b1ef60292a7279ff08061f\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7dc54f1003b1ef60292a7279ff08061f\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3bb6054cb39bb58e542f585fa7ea25fe\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3bb6054cb39bb58e542f585fa7ea25fe\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\1017a6897667610ea9d79a6f87612289\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\1017a6897667610ea9d79a6f87612289\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ff279931e94523e72bae8b39379e2b26\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ff279931e94523e72bae8b39379e2b26\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\f97ea3ffa293ea4b476d9a29adc37508\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\f97ea3ffa293ea4b476d9a29adc37508\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\51bf870c92ecae56c657c96c88566cd2\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\51bf870c92ecae56c657c96c88566cd2\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f9a242ee2884c2b50a3b4b5eba16e1d4\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f9a242ee2884c2b50a3b4b5eba16e1d4\AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:design:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a4e63c8bbb21b0588674b51402f6fd6a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\fe45408b5ffabee2cdb443ce1c94429e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\fe45408b5ffabee2cdb443ce1c94429e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\6edce257ac1f2868cbd0030b8ea49bf8\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\6edce257ac1f2868cbd0030b8ea49bf8\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9df9258d5ee1849f3f9d831d6361d777\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9df9258d5ee1849f3f9d831d6361d777\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\40dc9956eee4c15f895a0a19ed11198f\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\40dc9956eee4c15f895a0a19ed11198f\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\3eaf803a5af1ab8387eec1ab073c3a1b\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\3eaf803a5af1ab8387eec1ab073c3a1b\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\d54248d27e3e3c5123fb4a0cf5381c07\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\d54248d27e3e3c5123fb4a0cf5381c07\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\73ade54962094fd4fc6e3bd9c18ead5e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\73ade54962094fd4fc6e3bd9c18ead5e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\fa041f4ae4ebe480b4b84c2e4f497c36\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\fa041f4ae4ebe480b4b84c2e4f497c36\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a19b2715258e18ce46d8c9ec79c3368b\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a19b2715258e18ce46d8c9ec79c3368b\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\c994398a7d81b19ff5bd98333b09e5c4\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\c994398a7d81b19ff5bd98333b09e5c4\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\0b8cafdc81150bf38f97b7cd5eea387c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\0b8cafdc81150bf38f97b7cd5eea387c\AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:design:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\ced917e86fdf677f9059b15cc6568886\AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:design:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a4e63c8bbb21b0588674b51402f6fd6a\AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:design:26.1.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\ced917e86fdf677f9059b15cc6568886\AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:design:26.1.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a4e63c8bbb21b0588674b51402f6fd6a\AndroidManifest.xml:27:13-51
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\5864850f874caa6412f4397d2b7caaf6\AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\6dbf321b5733fbaddaa39aeef8dab569\AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\5864850f874caa6412f4397d2b7caaf6\AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\6dbf321b5733fbaddaa39aeef8dab569\AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\5864850f874caa6412f4397d2b7caaf6\AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\6dbf321b5733fbaddaa39aeef8dab569\AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\5864850f874caa6412f4397d2b7caaf6\AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\6dbf321b5733fbaddaa39aeef8dab569\AndroidManifest.xml:19:19-85
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\650add4ba09c06bee38e73f616821e22\AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\7f19545a3219d649e968f1db5f9fc5bb\AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\650add4ba09c06bee38e73f616821e22\AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\7f19545a3219d649e968f1db5f9fc5bb\AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\650add4ba09c06bee38e73f616821e22\AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\7f19545a3219d649e968f1db5f9fc5bb\AndroidManifest.xml:20:20-65
 meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f42cc14c16feca1e79dd1aa3a177f91a\AndroidManifest.xml:25:9-27:47
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\349913c7fdd4669278ccb457d69ff48e\AndroidManifest.xml:25:9-27:47
 	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f42cc14c16feca1e79dd1aa3a177f91a\AndroidManifest.xml:27:13-44
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\349913c7fdd4669278ccb457d69ff48e\AndroidManifest.xml:27:13-44
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\stang\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f42cc14c16feca1e79dd1aa3a177f91a\AndroidManifest.xml:26:13-58
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\JETBLASTIX\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\349913c7fdd4669278ccb457d69ff48e\AndroidManifest.xml:26:13-58
