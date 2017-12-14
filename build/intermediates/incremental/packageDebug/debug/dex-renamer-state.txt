@@ -1,19 +1,9 @@
+<<<<<<< HEAD
 #Tue Dec 12 01:58:54 EST 2017
 path.1=classes.dex
+=======
+#Mon Dec 11 23:42:30 EST 2017
+base.0=C\:\\Users\\stang\\AndroidStudioProjects\\FirstApp\\LockerAutomation\\build\\intermediates\\transforms\\dexMerger\\debug\\18
+>>>>>>> 50a300e327f0eb299571b0357fc79d67957125b1
 path.0=classes.dex
-renamed.5=classes6.dex
-renamed.4=classes5.dex
-renamed.3=classes4.dex
-renamed.2=classes3.dex
-renamed.1=classes2.dex
 renamed.0=classes.dex
-base.5=C\:\\Users\\JETBLASTIX\\Desktop\\LockerAutomation\\LockerAutomation\\build\\intermediates\\transforms\\dexMerger\\debug\\14
-base.4=C\:\\Users\\JETBLASTIX\\Desktop\\LockerAutomation\\LockerAutomation\\build\\intermediates\\transforms\\dexMerger\\debug\\11
-base.3=C\:\\Users\\JETBLASTIX\\Desktop\\LockerAutomation\\LockerAutomation\\build\\intermediates\\transforms\\dexMerger\\debug\\16
-base.2=C\:\\Users\\JETBLASTIX\\Desktop\\LockerAutomation\\LockerAutomation\\build\\intermediates\\transforms\\dexMerger\\debug\\13
-base.1=C\:\\Users\\JETBLASTIX\\Desktop\\LockerAutomation\\LockerAutomation\\build\\intermediates\\transforms\\dexMerger\\debug\\15
-base.0=C\:\\Users\\JETBLASTIX\\Desktop\\LockerAutomation\\LockerAutomation\\build\\intermediates\\transforms\\dexMerger\\debug\\12
-path.5=classes.dex
-path.4=classes.dex
-path.3=classes.dex
-path.2=classes.dex
