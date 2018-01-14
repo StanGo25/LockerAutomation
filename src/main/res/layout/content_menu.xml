@@ -15,6 +15,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="40dp"
+        android:fontFamily="serif-monospace"
         android:text="@string/menuhead"
         android:textAppearance="@android:style/TextAppearance.Holo.Medium"
         android:textSize="30sp"

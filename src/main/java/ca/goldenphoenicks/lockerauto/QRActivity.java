@@ -1,5 +1,6 @@
 package ca.goldenphoenicks.lockerauto;
 
+import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
@@ -33,6 +34,10 @@ public class QRActivity extends AppCompatActivity {
 
     private TextView mResultTextView;
 
+    SharedPreferences pref;
+    SharedPreferences.Editor editor;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,7 +48,35 @@ public class QRActivity extends AppCompatActivity {
 
             Window window = getWindow();
             window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-            window.setStatusBarColor(getResources().getColor(R.color.colorPrimaryDark));
+            window.setStatusBarColor(getResources().getColor(R.color.blu));
+
+
+
+        pref = QRActivity.this.getSharedPreferences("MyPref", 0); // 0 - for private mode
+        editor = pref.edit();
+
+        switch (pref.getInt("color", -1))
+        {
+            case 0:
+                myToolbar.setBackgroundResource(R.color.red);
+                getWindow().getDecorView().setBackgroundResource(R.color.blk);
+                break;
+            case 1:
+                myToolbar.setBackgroundResource(R.color.red);
+                getWindow().getDecorView().setBackgroundResource(R.color.blk);
+                break;
+            case 2:
+                myToolbar.setBackgroundResource(R.color.red);
+                getWindow().getDecorView().setBackgroundResource(R.color.blk);
+                break;
+            case 3:
+                myToolbar.setBackgroundResource(R.color.red);
+                getWindow().getDecorView().setBackgroundResource(R.color.blk);
+                break;
+            default:
+                myToolbar.setBackgroundResource(R.color.red);
+                getWindow().getDecorView().setBackgroundResource(R.color.blk);
+        }
 
 
         mResultTextView = (TextView) findViewById(R.id.result_textview);
@@ -56,6 +89,7 @@ public class QRActivity extends AppCompatActivity {
                 startActivityForResult(intent, BARCODE_READER_REQUEST_CODE);
             }
         });
+        
     }
 
     @Override
@@ -66,6 +100,31 @@ public class QRActivity extends AppCompatActivity {
                     Barcode barcode = data.getParcelableExtra(BarcodeCaptureActivity.BarcodeObject);
                     Point[] p = barcode.cornerPoints;
                     mResultTextView.setText(barcode.displayValue);
+                    if(((barcode.displayValue).substring(0,2)).equals("JE"))
+                    {
+                        //JE1234567 = lock
+                        mResultTextView.setText("Lock");
+
+                        MenuItem nav_item2 = (MenuActivity.menuNav).findItem(R.id.nav_lock);
+                        nav_item2.setEnabled(true);
+
+
+                    }else if(((barcode.displayValue).substring(0,2)).equals("JI"))
+                    {
+                        //JI1234567 = Door
+
+                        mResultTextView.setText("Door");
+                        MenuItem nav_item3 = (MenuActivity.menuNav).findItem(R.id.nav_door);
+                        nav_item3.setEnabled(true);
+
+                    }else if(((barcode.displayValue).substring(0,2)).equals("JM"))
+                    {
+                        //JM1234567 = Display
+                        mResultTextView.setText("Display");
+                        MenuItem nav_item4 = (MenuActivity.menuNav).findItem(R.id.nav_display);
+                        nav_item4.setEnabled(true);
+
+                    }
                 } else mResultTextView.setText(R.string.no_barcode_captured);
             } else Log.e(LOG_TAG, String.format(getString(R.string.barcode_error_format),
                     CommonStatusCodes.getStatusCodeString(resultCode)));

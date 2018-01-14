@@ -2,6 +2,9 @@ package ca.goldenphoenicks.lockerauto;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.support.design.widget.FloatingActionButton;
@@ -20,8 +23,13 @@ import android.view.MenuItem;
 public class MenuActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+    SharedPreferences pref;
+    SharedPreferences.Editor editor;
+
+    public static Menu menuNav;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -36,6 +44,32 @@ public class MenuActivity extends AppCompatActivity
 //            }
 //        });
 
+        pref = MenuActivity.this.getSharedPreferences("MyPref", 0); // 0 - for private mode
+        editor = pref.edit();
+
+        switch (pref.getInt("color", -1))
+        {
+            case 0:
+                toolbar.setBackgroundResource(R.color.red);
+                getWindow().getDecorView().setBackgroundResource(R.color.blk);
+                break;
+            case 1:
+                toolbar.setBackgroundResource(R.color.red);
+                getWindow().getDecorView().setBackgroundResource(R.color.blk);
+                break;
+            case 2:
+                toolbar.setBackgroundResource(R.color.red);
+                getWindow().getDecorView().setBackgroundResource(R.color.blk);
+                break;
+            case 3:
+                toolbar.setBackgroundResource(R.color.red);
+                getWindow().getDecorView().setBackgroundResource(R.color.blk);
+                break;
+            default:
+                toolbar.setBackgroundResource(R.color.red);
+                getWindow().getDecorView().setBackgroundResource(R.color.blk);
+        }
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -49,9 +83,8 @@ public class MenuActivity extends AppCompatActivity
         // for testing whether user needs to register device or not
         Intent carried = getIntent();
         int over=carried.getIntExtra("validate",0);
-
+        menuNav = navigationView.getMenu();
         if(over==2) {
-            Menu menuNav = navigationView.getMenu();
             MenuItem nav_item2 = menuNav.findItem(R.id.nav_lock);
             nav_item2.setEnabled(false);
             MenuItem nav_item3 = menuNav.findItem(R.id.nav_door);
@@ -59,9 +92,31 @@ public class MenuActivity extends AppCompatActivity
             MenuItem nav_item4 = menuNav.findItem(R.id.nav_display);
             nav_item4.setEnabled(false);
         }
-        else{}
+        else{
+            MenuItem nav_item4 = menuNav.findItem(R.id.nav_qr_scanner);
+            nav_item4.setEnabled(false);
+        }
+
+//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+//            Window window = getWindow();
+//            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+//            window.setStatusBarColor(getResources().getColor(R.color.purp));
+//        }
+
 
     }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if(item.getItemId() == R.id.action_settings) {
+            Intent intent = new Intent(MenuActivity.this, SettingsActivity.class);
+            startActivity(intent);
+
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
 
     @Override
     public void onBackPressed() {
@@ -96,21 +151,6 @@ public class MenuActivity extends AppCompatActivity
         getMenuInflater().inflate(R.menu.menu, menu);
         return true;
     }
-
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        // Handle action bar item clicks here. The action bar will
-//        // automatically handle clicks on the Home/Up button, so long
-//        // as you specify a parent activity in AndroidManifest.xml.
-//        int id = item.getItemId();
-//
-//        //noinspection SimplifiableIfStatement
-//        if (id == R.id.action_settings) {
-//            return true;
-//        }
-//
-//        return super.onOptionsItemSelected(item);
-//    }
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override

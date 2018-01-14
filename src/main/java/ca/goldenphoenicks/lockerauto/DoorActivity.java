@@ -1,5 +1,6 @@
 package ca.goldenphoenicks.lockerauto;
 
+import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
@@ -20,6 +21,8 @@ public class DoorActivity extends AppCompatActivity implements View.OnClickListe
     private int doorSpeed;
     private SeekBar sB;
     private TextView dsT;
+    SharedPreferences pref;
+    SharedPreferences.Editor editor;
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
@@ -27,6 +30,31 @@ public class DoorActivity extends AppCompatActivity implements View.OnClickListe
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
 
+        pref = this.getSharedPreferences("MyPref", 0); // 0 - for private mode
+        editor = pref.edit();
+
+        switch (pref.getInt("color", -1))
+        {
+            case 0:
+                myToolbar.setBackgroundResource(R.color.red);
+                getWindow().getDecorView().setBackgroundResource(R.color.blk);
+                break;
+            case 1:
+                myToolbar.setBackgroundResource(R.color.red);
+                getWindow().getDecorView().setBackgroundResource(R.color.blk);
+                break;
+            case 2:
+                myToolbar.setBackgroundResource(R.color.red);
+                getWindow().getDecorView().setBackgroundResource(R.color.blk);
+                break;
+            case 3:
+                myToolbar.setBackgroundResource(R.color.red);
+                getWindow().getDecorView().setBackgroundResource(R.color.blk);
+                break;
+            default:
+                myToolbar.setBackgroundResource(R.color.red);
+                getWindow().getDecorView().setBackgroundResource(R.color.blk);
+        }
         dB=(Button) findViewById(R.id.dButt);
         dB.setOnClickListener(this);
 
@@ -68,11 +96,11 @@ public class DoorActivity extends AppCompatActivity implements View.OnClickListe
 
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            Window window = getWindow();
-            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-            window.setStatusBarColor(getResources().getColor(R.color.colorPrimaryDark));
-        }
+//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+//            Window window = getWindow();
+//            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+//            window.setStatusBarColor(getResources().getColor(R.color.blu));
+//        }
     }
 
     @Override

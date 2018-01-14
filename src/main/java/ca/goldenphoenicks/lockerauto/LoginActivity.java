@@ -2,6 +2,7 @@ package ca.goldenphoenicks.lockerauto;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -14,16 +15,24 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.microsoft.windowsazure.mobileservices.MobileServiceActivityResult;
+import com.microsoft.windowsazure.mobileservices.MobileServiceException;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.ExecutionException;
 
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
     String FILENAME;
+    SharedPreferences pref;
+    SharedPreferences.Editor editor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +46,55 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
         validatePin.setOnClickListener(this);
         validateReg.setOnClickListener(this);
+
+        pref = this.getSharedPreferences("MyPref", 0); // 0 - for private mode
+        editor = pref.edit();
+
+        switch (pref.getInt("color", -1))
+        {
+            case 0:
+
+                getWindow().getDecorView().setBackgroundResource(R.color.blk);
+                break;
+            case 1:
+
+                getWindow().getDecorView().setBackgroundResource(R.color.blk);
+                break;
+            case 2:
+
+                getWindow().getDecorView().setBackgroundResource(R.color.blk);
+                break;
+            case 3:
+
+                getWindow().getDecorView().setBackgroundResource(R.color.blk);
+                break;
+            default:
+
+                getWindow().getDecorView().setBackgroundResource(R.color.blk);
+        }
+
+//        AzureServiceAdapter as = new AzureServiceAdapter(this);
+//        as.Initialize(this);
+//        try {
+//            ArrayList<Users> users = as.getUsers();
+//            for(int i = 0; i < users.size(); i++)
+//                Toast.makeText(this, users.get(i).getName(),
+//                        Toast.LENGTH_SHORT).show();
+//        } catch (MobileServiceException e) {
+//            e.printStackTrace();
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        } catch (ExecutionException e) {
+//            e.printStackTrace();
+//        }
+
+//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+//            Window window = getWindow();
+//            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+//            window.setStatusBarColor(getResources().getColor(R.color.purp));
+//        }
+
+
     }
 
     @Override

@@ -40,4 +40,33 @@
     <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
     <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
 
+    <string name="pref_header">Settings</string>
+
+    <string-array name="preferences">
+        <item>Languages</item>
+        <item>Themes</item>
+        <item>Account Settings</item>
+    </string-array>
+
+    <string name="pref_header2">About us</string>
+    <string-array name="preferences2">
+        <item>GitHub Repository</item>
+    </string-array>
+
+    <string-array name="pref_lang">
+        <item>English</item>
+        <item>French</item>
+    </string-array>
+
+    <string name="pref_msgHead1">Choose your Language</string>
+    <string name="pref_msgHead2">Choose your Theme</string>
+    <string name="pref_msgApply">Apply</string>
+    <string name="pref_msgCancel">Cancel</string>
+
+    <string-array name="pref_colors">
+        <item>Red</item>
+        <item>Purple</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
 </resources>

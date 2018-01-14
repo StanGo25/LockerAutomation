@@ -1,5 +1,6 @@
 package ca.goldenphoenicks.lockerauto;
 
+import android.content.SharedPreferences;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Bundle;
@@ -19,7 +20,8 @@ import android.widget.TextView;
  */
 
 public class LockActivity extends AppCompatActivity implements View.OnClickListener {
-
+    SharedPreferences pref;
+    SharedPreferences.Editor editor;
     private ImageButton img;
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -28,16 +30,42 @@ public class LockActivity extends AppCompatActivity implements View.OnClickListe
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            Window window = getWindow();
-            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-            window.setStatusBarColor(getResources().getColor(R.color.colorPrimaryDark));
+
+        pref = this.getSharedPreferences("MyPref", 0); // 0 - for private mode
+        editor = pref.edit();
+
+        switch (pref.getInt("color", -1))
+        {
+            case 0:
+                myToolbar.setBackgroundResource(R.color.red);
+                getWindow().getDecorView().setBackgroundResource(R.color.blk);
+                break;
+            case 1:
+                myToolbar.setBackgroundResource(R.color.red);
+                getWindow().getDecorView().setBackgroundResource(R.color.blk);
+                break;
+            case 2:
+                myToolbar.setBackgroundResource(R.color.red);
+                getWindow().getDecorView().setBackgroundResource(R.color.blk);
+                break;
+            case 3:
+                myToolbar.setBackgroundResource(R.color.red);
+                getWindow().getDecorView().setBackgroundResource(R.color.blk);
+                break;
+            default:
+                myToolbar.setBackgroundResource(R.color.red);
+                getWindow().getDecorView().setBackgroundResource(R.color.blk);
         }
-
-
         img=(ImageButton) findViewById(R.id.lockNow);
 
         img.setOnClickListener(this);
+
+//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+//            Window window = getWindow();
+//            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+//            window.setStatusBarColor(getResources().getColor(R.color.blu));
+//        }
+
     }
 
     @Override
