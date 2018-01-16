@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="red">#932126</color>
@@ -7,3 +8,14 @@
     <color name="wht">#FFFFFF</color>
     <color name="ylw">#ffef9d</color>
 </resources>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#910007</color>
+    <color name="blu">#4080F0</color>
+    <color name="purp">#A000F9</color>
+    <color name="blk">#999999</color>
+    <color name="wht">#FFFFFF</color>
+    <color name="ylw">#F0F000</color>
+</resources>
+>>>>>>> e85493692c1994a6b92a212fedb5823ed428d526
