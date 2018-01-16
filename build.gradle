@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 apply plugin: 'com.android.application'
 
 android {
@@ -41,7 +41,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     compile 'com.google.android.gms:play-services-vision:11.4.2'
 }
-=======
+
 apply plugin: 'com.android.application'
 
 android {
@@ -84,4 +84,4 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     compile 'com.google.android.gms:play-services-vision:11.4.2'
 }
->>>>>>> e85493692c1994a6b92a212fedb5823ed428d526
+
