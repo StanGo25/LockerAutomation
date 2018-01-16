@@ -4,29 +4,31 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
-        <item android:id="@+id/nav_menu"
+
+        <item
+            android:id="@+id/nav_menu"
             android:icon="@mipmap/ic_home_black_24dp"
-            android:title="Menu"/>
+            android:title="@string/menu_menu" />
 
         <item android:id="@+id/nav_qr_scanner"
             android:icon="@mipmap/ic_settings_qr_black_24dp"
-            android:title="QR Scanner"/>
+            android:title="@string/menu_qr"/>
 
         <item android:id="@+id/nav_lock"
             android:icon="@mipmap/ic_https_black_24dp"
-            android:title="Lock"/>
+            android:title="@string/menu_lock"/>
 
         <item android:id="@+id/nav_door"
             android:icon="@mipmap/ic_chrome_reader_mode_black_24dp"
-            android:title="Door"/>
+            android:title="@string/menu_door"/>
 
         <item android:id="@+id/nav_display"
             android:icon="@mipmap/ic_settings_cell_black_24dp"
-            android:title="Display"/>
+            android:title="@string/menu_display"/>
 
         <item android:id="@+id/nav_settings"
             android:icon="@mipmap/ic_settings_cog_black_24dp"
-            android:title="Settings"/>
+            android:title="@string/action_settings"/>
 
     </group>
 

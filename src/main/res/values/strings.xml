@@ -1,5 +1,8 @@
 <resources>
     <string name="filename">pinlog</string>
+    <string name="hint2">Input Name</string>
+    <string name="hint">Input PIN</string>
+
 
     <string name="app_name">Locker Automation System</string>
     <string name="login1tv">Welcome back! Please input your PIN to continue</string>
@@ -40,4 +43,34 @@
     <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
     <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
 
+    <string name="pref_header">Settings</string>
+
+    <string-array name="preferences">
+        <item>Themes</item>
+        <item>Account Settings</item>
+    </string-array>
+
+    <string name="pref_header2">About us</string>
+    <string-array name="preferences2">
+        <item>GitHub Repository</item>
+    </string-array>
+
+    <string name="pref_msgHead2">Choose your Theme</string>
+    <string name="pref_msgApply">Apply</string>
+    <string name="pref_msgCancel">Cancel</string>
+
+    <string name="menu_menu">Menu</string>
+    <string name="menu_qr">QR Scanner</string>
+    <string name="menu_lock">Lock</string>
+    <string name="menu_door">Door</string>
+    <string name="menu_display">Display</string>
+
+
+
+    <string-array name="pref_colors">
+        <item>Theme 1</item>
+        <item>Theme 2</item>
+        <item>Theme 3</item>
+        <item>Theme 4</item>
+    </string-array>
 </resources>

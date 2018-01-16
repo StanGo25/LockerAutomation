@@ -9,6 +9,8 @@
 
     <ca.goldenphoenicks.lockerauto.camera.CameraSourcePreview
         android:id="@+id/preview"
+        android:background="@color/blk"
+        android:backgroundTint="@color/blu"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">

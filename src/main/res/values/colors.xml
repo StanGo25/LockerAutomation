@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#007f1d</color>
-    <color name="colorPrimaryDark">#005413</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="appbtext">#FFFFFF</color>
+    <color name="red">#932126</color>
+    <color name="blu">#3f89d9</color>
+    <color name="purp">#965eb6</color>
+    <color name="blk">#999999</color>
+    <color name="wht">#FFFFFF</color>
+    <color name="ylw">#ffef9d</color>
 </resources>

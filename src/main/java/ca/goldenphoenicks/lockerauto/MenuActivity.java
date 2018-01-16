@@ -2,11 +2,17 @@ package ca.goldenphoenicks.lockerauto;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AlertDialog;
+import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -16,52 +22,180 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import java.io.BufferedInputStream;
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
+import static android.widget.Toast.LENGTH_SHORT;
 
 public class MenuActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+    SharedPreferences pref;
+    SharedPreferences.Editor editor;
+
+    String username;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-// Consider making QR Scanner a fab
-//        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
-//            }
-//        });
+        try {
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        super.
+            onCreate(savedInstanceState);
+            setContentView(R.layout.activity_menu);
+
+            NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
+        navigationView.getMenu().
+
+            getItem(0).
+
+            setChecked(true);
+
+            Menu menuNav = navigationView.getMenu();
+
+            MenuItem nav_item1 = menuNav.findItem(R.id.nav_lock);
+            MenuItem nav_item2 = menuNav.findItem(R.id.nav_door);
+            MenuItem nav_item3 = menuNav.findItem(R.id.nav_display);
+        nav_item1.setEnabled(false);
+        nav_item2.setEnabled(false);
+        nav_item3.setEnabled(true);
+
+            Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
+            setSupportActionBar(toolbar);
+
+            FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener()
+
+            {
+                @Override
+                public void onClick (View view){
+                onBackPressed();
+            }
+            });
+
+            pref =MenuActivity.this.
+
+            getSharedPreferences("MyPref",0); // 0 - for private mode
+
+            editor =pref.edit();
+
+        switch(pref.getInt("color",-1))
+
+            {
+                case 0:
+                    toolbar.setBackgroundResource(R.color.red);
+                    getWindow().getDecorView().setBackgroundResource(R.color.blk);
+                    break;
+                case 1:
+                    toolbar.setBackgroundResource(R.color.purp);
+                    getWindow().getDecorView().setBackgroundResource(R.color.blk);
+                    break;
+                case 2:
+                    toolbar.setBackgroundResource(R.color.blu);
+                    getWindow().getDecorView().setBackgroundResource(R.color.wht);
+                    break;
+                case 3:
+                    toolbar.setBackgroundResource(R.color.red);
+                    getWindow().getDecorView().setBackgroundResource(R.color.ylw);
+                    break;
+                default:
+                    toolbar.setBackgroundResource(R.color.purp);
+                    getWindow().getDecorView().setBackgroundResource(R.color.wht);
+            }
+
+            DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+            ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+                    this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+            Intent i = getIntent();
+            username=i.getStringExtra("name");
+
+        if(username!=null)
+
+            {
+                editor.putString("u_name", username);
+                editor.commit();
+            }
+
+            View headerV = navigationView.getHeaderView(0);
+            TextView navTitle = (TextView) headerV.findViewById(R.id.headerName);
+        navTitle.setText("Welcome, "+pref.getString("u_name",""));
         navigationView.setNavigationItemSelectedListener(this);
-        navigationView.getMenu().getItem(0).setChecked(true);
+        navigationView.getMenu().
 
-        // for testing whether user needs to register device or not
-        Intent carried = getIntent();
-        int over=carried.getIntExtra("validate",0);
+            getItem(0).
 
-        if(over==2) {
-            Menu menuNav = navigationView.getMenu();
-            MenuItem nav_item2 = menuNav.findItem(R.id.nav_lock);
-            nav_item2.setEnabled(false);
-            MenuItem nav_item3 = menuNav.findItem(R.id.nav_door);
-            nav_item3.setEnabled(false);
-            MenuItem nav_item4 = menuNav.findItem(R.id.nav_display);
-            nav_item4.setEnabled(false);
+            setChecked(true);
+
+
+            String res = "";
+        try
+
+            {
+                res = new MenuActivity.GetPin().execute().get();
+            }
+        catch(
+            Exception e)
+
+            {
+                e.printStackTrace();
+            }
+
+
+        if(res.contains("1"))
+
+            {
+                nav_item1.setEnabled(true);
+            }
+        if(res.contains("2"))
+
+            {
+                nav_item2.setEnabled(true);
+            }
+            if(res.contains("3"))
+
+            {
+                nav_item3.setEnabled(true);
+            }
+        }catch(Exception e)
+        {
+            Toast.makeText(MenuActivity.this, "Failed to Connect...", LENGTH_SHORT).show();
+            e.printStackTrace();
         }
-        else{}
 
     }
+
+
+//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+//            Window window = getWindow();
+//            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+//            window.setStatusBarColor(getResources().getColor(R.color.purp));
+//        }
+
+
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if(item.getItemId() == R.id.action_settings) {
+            Intent intent = new Intent(MenuActivity.this, SettingsActivity.class);
+            startActivity(intent);
+
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
 
     @Override
     public void onBackPressed() {
@@ -97,21 +231,6 @@ public class MenuActivity extends AppCompatActivity
         return true;
     }
 
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        // Handle action bar item clicks here. The action bar will
-//        // automatically handle clicks on the Home/Up button, so long
-//        // as you specify a parent activity in AndroidManifest.xml.
-//        int id = item.getItemId();
-//
-//        //noinspection SimplifiableIfStatement
-//        if (id == R.id.action_settings) {
-//            return true;
-//        }
-//
-//        return super.onOptionsItemSelected(item);
-//    }
-
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
@@ -143,4 +262,38 @@ public class MenuActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+
+    class GetPin extends AsyncTask<String,Void,String> {
+
+
+        @Override
+        protected String doInBackground(String... strings) {
+
+            String result = "";
+            HttpURLConnection urlConnection = null;
+            String validateUrl = "http://munro.humber.ca/~n01116269/returnproducts.php?u_name=" + pref.getString("u_name", "");
+            try {
+                URL url = new URL(validateUrl);
+                urlConnection = (HttpURLConnection) url.openConnection();
+                InputStream is = new BufferedInputStream(urlConnection.getInputStream());
+                BufferedReader br = new BufferedReader(new InputStreamReader(is));
+                String line = "";
+
+                while((line = br.readLine())!=null)
+                {
+                    result+=line;
+                }
+                is.close();
+                Log.i("Result",result);
+                return result;
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+            return null;
+        }
+    }
+
+
 }

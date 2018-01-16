@@ -1,0 +1,73 @@
+<resources>
+    <string name="filename">pinlog</string>
+
+    <string name="app_name">Locker Automation System</string>
+    <string name="login1tv">Bienvenue! Taper votre NIP pour continuer</string>
+    <string name="validate_pin">Valider NIP</string>
+    <string name="login2tv">Nouvel utilisateur? Entrez un code PIN pour démarrer et appuyez sur le bouton Enregistrer pour enregistrer un nouvel appareil</string>
+    <string name="validate_reg">Registre</string>
+
+    <string name="validate_err">Code PIN incorrect, veuillez réessayer</string>
+
+
+    <string name="menuhead">Menu</string>
+    <string name="displayb">Afficher</string>
+    <string name="lockb">Pour contrôler la serrure</string>
+    <string name="QRb">Scannez le code QR</string>
+    <string name="doorb">Pour contrôler la porte</string>
+
+    <string name="action_settings">Paramètres</string>
+
+    <string name="lockOn">Serrure armé</string>
+    <string name="lockOff">Serrure désarmé</string>
+
+    <string name="txttit">←  (-)           (+)  →</string>
+    <string name="dTxt">Ouvrir</string>
+    <string name="dsTxt">0</string>
+
+
+    <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
+    <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
+
+    <!-- Strings related to MainActivity-->
+    <string name="scan_barcode_button">Scannez le code QR</string>
+    <string name="no_barcode_captured">Aucun code QR capturé</string>
+    <string name="barcode_error_format">"Erreur de lecture QR code: %1$s"</string>
+
+    <!-- Strings related to barcode scanner -->
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">L'accès à la caméra est nécessaire pour la détection</string>
+    <string name="no_camera_permission">Cette application ne peut pas s'exécuter car elle n'a pas l'autorisation de la caméra. L'application va maintenant quitter.</string>
+    <string name="low_storage_error">Les dépendances des détecteurs de visages ne peuvent pas être téléchargées en raison du faible stockage de l'appareil</string>
+
+    <string name="pref_header">Paramètres</string>
+
+    <string-array name="preferences">
+        <item>Thèmes</item>
+        <item>Paramètres du compte</item>
+    </string-array>
+
+    <string name="pref_header2">About us</string>
+    <string-array name="preferences2">
+        <item>GitHub Repository</item>
+    </string-array>
+
+
+    <string name="menu_menu">Menu</string>
+    <string name="menu_qr">Lecture QR</string>
+    <string name="menu_lock">Serrure</string>
+    <string name="menu_door">Porte</string>
+    <string name="menu_display">Afficher</string>
+
+
+    <string name="pref_msgHead2">Choisissez votre thème</string>
+    <string name="pref_msgApply">Appliquer</string>
+    <string name="pref_msgCancel">Annuler</string>
+
+    <string-array name="pref_colors">
+        <item>Theme 1</item>
+        <item>Theme 2</item>
+        <item>Theme 3</item>
+        <item>Theme 4</item>
+    </string-array>
+</resources>
