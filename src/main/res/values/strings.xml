@@ -1,5 +1,8 @@
 <resources>
     <string name="filename">pinlog</string>
+    <string name="hint2">Input Name</string>
+    <string name="hint">Input PIN</string>
+
 
     <string name="app_name">Locker Automation System</string>
     <string name="login1tv">Welcome back! Please input your PIN to continue</string>
