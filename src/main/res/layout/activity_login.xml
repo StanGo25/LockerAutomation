@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -108,7 +108,7 @@
         app:layout_constraintTop_toBottomOf="@+id/login1" />
 
 </android.support.constraint.ConstraintLayout>
-=======
+
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -202,4 +202,4 @@
         tools:layout_constraintRight_creator="1" />
 
 </android.support.constraint.ConstraintLayout>
->>>>>>> e85493692c1994a6b92a212fedb5823ed428d526
+

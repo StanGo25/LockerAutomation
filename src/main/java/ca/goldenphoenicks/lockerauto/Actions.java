@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 package ca.goldenphoenicks.lockerauto;
 
 /**
@@ -30,7 +30,7 @@ public class Actions {
         this.action_type = action_type;
     }
 }
-=======
+
 package ca.goldenphoenicks.lockerauto;
 
 /**
@@ -62,4 +62,4 @@ public class Actions {
         this.action_type = action_type;
     }
 }
->>>>>>> e85493692c1994a6b92a212fedb5823ed428d526
+

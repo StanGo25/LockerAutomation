@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 package ca.goldenphoenicks.lockerauto;
 
 import android.annotation.TargetApi;
@@ -161,7 +161,7 @@ public class SettingsFragment extends Fragment {
         return rootView;
     }
 
-=======
+
 package ca.goldenphoenicks.lockerauto;
 
 import android.annotation.TargetApi;
@@ -353,5 +353,5 @@ public class SettingsFragment extends Fragment {
         return rootView;
     }
 
->>>>>>> e85493692c1994a6b92a212fedb5823ed428d526
+
 }

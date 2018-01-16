@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 package ca.goldenphoenicks.lockerauto;
 
 import android.content.SharedPreferences;
@@ -186,7 +186,7 @@ public class DoorActivity extends AppCompatActivity implements View.OnClickListe
     }
 
 }
-=======
+
 package ca.goldenphoenicks.lockerauto;
 
 import android.content.SharedPreferences;
@@ -321,4 +321,4 @@ public class DoorActivity extends AppCompatActivity implements View.OnClickListe
         }
 
 }
->>>>>>> e85493692c1994a6b92a212fedb5823ed428d526
+

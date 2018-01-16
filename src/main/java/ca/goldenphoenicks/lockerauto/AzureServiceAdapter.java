@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 package ca.goldenphoenicks.lockerauto;
 
 /**
@@ -73,7 +73,7 @@ public class AzureServiceAdapter {
 //        return testList;
         return lis;
     }
-=======
+
 package ca.goldenphoenicks.lockerauto;
 
 /**
@@ -148,5 +148,5 @@ public class AzureServiceAdapter {
 //        return testList;
         return lis;
     }
->>>>>>> e85493692c1994a6b92a212fedb5823ed428d526
+
 }

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 package ca.goldenphoenicks.lockerauto;
 
 import android.content.SharedPreferences;
@@ -259,7 +259,7 @@ public class QRActivity extends AppCompatActivity {
 
 
 }
-=======
+
 package ca.goldenphoenicks.lockerauto;
 
 import android.content.SharedPreferences;
@@ -526,4 +526,4 @@ public class QRActivity extends AppCompatActivity {
 
 }
 
->>>>>>> e85493692c1994a6b92a212fedb5823ed428d526
+

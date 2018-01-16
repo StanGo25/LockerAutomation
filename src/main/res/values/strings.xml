@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <resources>
     <string name="filename">pinlog</string>
     <string name="hint2">Input Name</string>
@@ -75,7 +75,7 @@
         <item>Theme 4</item>
     </string-array>
 </resources>
-=======
+
 <resources>
     <string name="filename">pinlog</string>
     <string name="hint2">Input Name</string>
@@ -144,4 +144,4 @@
         <item>Blue</item>
     </string-array>
 </resources>
->>>>>>> e85493692c1994a6b92a212fedb5823ed428d526
+

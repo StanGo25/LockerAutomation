@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ca.goldenphoenicks.lockerauto">
@@ -65,7 +65,7 @@
             />
     </application>
 
-=======
+
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ca.goldenphoenicks.lockerauto">
@@ -132,5 +132,5 @@
             />
     </application>
 
->>>>>>> e85493692c1994a6b92a212fedb5823ed428d526
+
 </manifest>

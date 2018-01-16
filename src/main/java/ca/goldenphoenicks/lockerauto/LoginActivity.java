@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 package ca.goldenphoenicks.lockerauto;
 
 import android.content.Context;
@@ -274,7 +274,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     }
 }
 
-=======
+
 package ca.goldenphoenicks.lockerauto;
 
 import android.content.Context;
@@ -451,4 +451,4 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         }
     }
 }
->>>>>>> e85493692c1994a6b92a212fedb5823ed428d526
+

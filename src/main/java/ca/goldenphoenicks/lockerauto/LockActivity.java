@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 package ca.goldenphoenicks.lockerauto;
 
 import android.content.SharedPreferences;
@@ -158,7 +158,7 @@ class setLock extends AsyncTask<String,Void,String> {
     }
 }
 }
-=======
+
 package ca.goldenphoenicks.lockerauto;
 
 import android.content.SharedPreferences;
@@ -262,4 +262,4 @@ public class LockActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 }
->>>>>>> e85493692c1994a6b92a212fedb5823ed428d526
+

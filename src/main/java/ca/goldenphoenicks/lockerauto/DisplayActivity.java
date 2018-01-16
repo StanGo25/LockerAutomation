@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 package ca.goldenphoenicks.lockerauto;
 
 import android.content.SharedPreferences;
@@ -154,7 +154,7 @@ public class DisplayActivity extends AppCompatActivity implements View.OnClickLi
         }
     }
 
-=======
+
 package ca.goldenphoenicks.lockerauto;
 
 import android.content.SharedPreferences;
@@ -301,5 +301,5 @@ public class DisplayActivity extends AppCompatActivity implements View.OnClickLi
         }
     }
 
->>>>>>> e85493692c1994a6b92a212fedb5823ed428d526
+
 }

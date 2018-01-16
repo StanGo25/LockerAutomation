@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 package ca.goldenphoenicks.lockerauto;
 
 import android.app.ActionBar;
@@ -50,7 +50,7 @@ public class SettingsActivity extends AppCompatActivity {
     }
 
 }
-=======
+
 package ca.goldenphoenicks.lockerauto;
 
 import android.app.ActionBar;
@@ -102,4 +102,4 @@ public class SettingsActivity extends AppCompatActivity {
     }
 
 }
->>>>>>> e85493692c1994a6b92a212fedb5823ed428d526
+

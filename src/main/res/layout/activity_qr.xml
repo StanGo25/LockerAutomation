@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -55,7 +55,7 @@
         app:layout_constraintTop_toBottomOf="@+id/result_textview"
         app:layout_constraintVertical_bias="0.055" />
 
-=======
+
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -112,5 +112,5 @@
         app:layout_constraintTop_toBottomOf="@+id/result_textview"
         app:layout_constraintVertical_bias="0.055" />
 
->>>>>>> e85493692c1994a6b92a212fedb5823ed428d526
+
 </android.support.constraint.ConstraintLayout>
