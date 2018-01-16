@@ -1,15 +1,27 @@
 package ca.goldenphoenicks.lockerauto;
 
 import android.content.SharedPreferences;
+import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Toast;
+
+import java.io.BufferedInputStream;
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
+import static android.widget.Toast.LENGTH_SHORT;
 
 /**
  * Created by Stanley on 12/10/17.
@@ -22,6 +34,24 @@ public class DisplayActivity extends AppCompatActivity implements View.OnClickLi
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display);
+
+        String res="";
+        try
+        {
+            res = new DisplayActivity.GetPin().execute().get();
+
+
+        }
+        catch(Exception e)
+        {
+            e.printStackTrace();
+        }
+
+        StringBuilder sb = new StringBuilder();
+        sb.append(res);
+        String realRes = sb.toString().replaceAll("\\<.*?>","");
+
+
 
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
@@ -80,4 +110,38 @@ public class DisplayActivity extends AppCompatActivity implements View.OnClickLi
     public void onClick(View view) {
 
     }
+
+
+
+    class GetPin extends AsyncTask<String,Void,String> {
+
+
+        @Override
+        protected String doInBackground(String... strings) {
+
+            String result = "";
+            HttpURLConnection urlConnection = null;
+            String validateUrl = "http://munro.humber.ca/~n01116269/display.php?u_name=" + pref.getString("u_name", "");
+            try {
+                URL url = new URL(validateUrl);
+                urlConnection = (HttpURLConnection) url.openConnection();
+                InputStream is = new BufferedInputStream(urlConnection.getInputStream());
+                BufferedReader br = new BufferedReader(new InputStreamReader(is));
+                String line = "";
+
+                while((line = br.readLine())!=null)
+                {
+                    result+=line;
+                }
+                is.close();
+                Log.i("Result",result);
+                return result;
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+            return null;
+        }
+    }
+
 }
