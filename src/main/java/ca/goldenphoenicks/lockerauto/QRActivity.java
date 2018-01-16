@@ -1,6 +1,8 @@
 package ca.goldenphoenicks.lockerauto;
 
 import android.content.SharedPreferences;
+import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
@@ -23,14 +25,34 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.common.api.CommonStatusCodes;
 import com.google.android.gms.vision.barcode.Barcode;
+
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+
 import ca.goldenphoenicks.lockerauto.barcode.BarcodeCaptureActivity;
+
+import static android.widget.Toast.LENGTH_SHORT;
+import static ca.goldenphoenicks.lockerauto.QRActivity.p_type;
 
 public class QRActivity extends AppCompatActivity {
     private static final String LOG_TAG = QRActivity.class.getSimpleName();
     private static final int BARCODE_READER_REQUEST_CODE = 1;
+    public static int p_type=0;
+
 
     private TextView mResultTextView;
 
@@ -100,29 +122,88 @@ public class QRActivity extends AppCompatActivity {
                     Barcode barcode = data.getParcelableExtra(BarcodeCaptureActivity.BarcodeObject);
                     Point[] p = barcode.cornerPoints;
                     mResultTextView.setText(barcode.displayValue);
+
+                    int pt;
+                    String res;
+
+
+
                     if(((barcode.displayValue).substring(0,2)).equals("JE"))
                     {
                         //JE1234567 = lock
-                        mResultTextView.setText("Lock");
+                        mResultTextView.setText("Lock Enabled");
 
                         MenuItem nav_item2 = (MenuActivity.menuNav).findItem(R.id.nav_lock);
                         nav_item2.setEnabled(true);
+                        try
+                        {
+                            res = new GetPin().execute(1).get();
+                            if(res.contains("Success"))
+                            {
+                                Toast.makeText(QRActivity.this, "Success", LENGTH_SHORT).show();
+                            }
+                            else
+                            {
+                                Toast.makeText(QRActivity.this, "Failure", LENGTH_SHORT).show();
+                            }
+
+                        }
+                        catch(Exception e)
+                        {
+                            e.printStackTrace();
+                        }
+
+
 
 
                     }else if(((barcode.displayValue).substring(0,2)).equals("JI"))
                     {
                         //JI1234567 = Door
 
-                        mResultTextView.setText("Door");
+                        mResultTextView.setText("Door Enabled");
                         MenuItem nav_item3 = (MenuActivity.menuNav).findItem(R.id.nav_door);
                         nav_item3.setEnabled(true);
+                        try
+                        {
+                            res = new GetPin().execute(2).get();
+                            if(res.contains("Success"))
+                            {
+                                Toast.makeText(QRActivity.this, "Success", LENGTH_SHORT).show();
+                            }
+                            else
+                            {
+                                Toast.makeText(QRActivity.this, "Failure", LENGTH_SHORT).show();
+                            }
+
+                        }
+                        catch(Exception e)
+                        {
+                            e.printStackTrace();
+                        }
 
                     }else if(((barcode.displayValue).substring(0,2)).equals("JM"))
                     {
                         //JM1234567 = Display
-                        mResultTextView.setText("Display");
+                        mResultTextView.setText("Display Enabled");
                         MenuItem nav_item4 = (MenuActivity.menuNav).findItem(R.id.nav_display);
                         nav_item4.setEnabled(true);
+                        try
+                        {
+                            res = new GetPin().execute(3).get();
+                            if(res.contains("Success"))
+                            {
+                                Toast.makeText(QRActivity.this, "Success", LENGTH_SHORT).show();
+                            }
+                            else
+                            {
+                                Toast.makeText(QRActivity.this, "Failure", LENGTH_SHORT).show();
+                            }
+
+                        }
+                        catch(Exception e)
+                        {
+                            e.printStackTrace();
+                        }
 
                     }
                 } else mResultTextView.setText(R.string.no_barcode_captured);
@@ -134,8 +215,8 @@ public class QRActivity extends AppCompatActivity {
     @Override
     public void onBackPressed()
     {
-        NavUtils.navigateUpFromSameTask(this);
-    }
+//        NavUtils.navigateUpFromSameTask(this);
+        Intent in = new Intent(QRActivity.this, MenuActivity.class);}
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -147,6 +228,39 @@ public class QRActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+
+    class GetPin extends AsyncTask<Integer,Void,String> {
+        private Uri uri;
+
+        @Override
+        protected String doInBackground(Integer... iints) {
+
+            String result = "";
+            HttpURLConnection urlConnection = null;
+            String validateUrl = "http://munro.humber.ca/~n01116269/dbproducts.php?p_type=" + iints + "&user_name=" + pref.getString("u_name", "");
+            try {
+                URL url = new URL(validateUrl);
+                urlConnection = (HttpURLConnection) url.openConnection();
+                InputStream is = new BufferedInputStream(urlConnection.getInputStream());
+                BufferedReader br = new BufferedReader(new InputStreamReader(is));
+                String line = "";
+
+                while((line = br.readLine())!=null)
+                {
+                    result+=line;
+                }
+                is.close();
+                Log.i("Result",result);
+                return result;
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+            return null;
+        }
+    }
+
 
 }
 
