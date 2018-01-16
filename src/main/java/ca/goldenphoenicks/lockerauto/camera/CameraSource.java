@@ -160,9 +160,9 @@ public class CameraSource {
      */
     private Map<byte[], ByteBuffer> mBytesToByteBuffer = new HashMap<>();
 
-    //===
+    //==============================================================================================
     // Builder
-    //===
+    //==============================================================================================
 
     /**
      * Builder for configuring and creating an associated camera source.
@@ -249,9 +249,9 @@ public class CameraSource {
         }
     }
 
-    //===
+    //==============================================================================================
     // Bridge Functionality for the Camera1 API
-    //===
+    //==============================================================================================
 
     /**
      * Callback interface used to signal the moment of actual image capture.
@@ -312,9 +312,9 @@ public class CameraSource {
         void onAutoFocusMoving(boolean start);
     }
 
-    //===
+    //==============================================================================================
     // Public
-    //===
+    //==============================================================================================
 
     /**
      * Stops the camera and releases the resources of the camera and underlying detector.
@@ -660,9 +660,9 @@ public class CameraSource {
         return true;
     }
 
-    //===
+    //==============================================================================================
     // Private
-    //===
+    //==============================================================================================
 
     /**
      * Only allow creation via the builder class.
@@ -1048,9 +1048,9 @@ public class CameraSource {
         return byteArray;
     }
 
-    //===
+    //==============================================================================================
     // Frame processing
-    //===
+    //==============================================================================================
 
     /**
      * Called when the camera has a new preview frame.

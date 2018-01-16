@@ -1,4 +1,4 @@
-#Tue Jan 16 03:13:09 EST 2018
-base.0=C\:\\Users\\stang\\AndroidStudioProjects\\MyApplication2\\LockerAutomation\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Tue Jan 16 04:17:16 EST 2018
+base.0=C\:\\Users\\stang\\AndroidStudioProjects\\LockerAutomation\\LockerAutomation\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

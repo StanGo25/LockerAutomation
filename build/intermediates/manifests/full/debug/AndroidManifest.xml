@@ -64,25 +64,6 @@
         <activity
             android:name="ca.goldenphoenicks.lockerauto.barcode.BarcodeCaptureActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.microsoft.windowsazure.mobileservices.authentication.RedirectUrlActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-
-                <data android:scheme="" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="com.microsoft.windowsazure.mobileservices.authentication.CustomTabsIntermediateActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.microsoft.windowsazure.mobileservices.authentication.CustomTabsLoginActivity"
-            android:exported="false"
-            android:launchMode="singleTask" />
 
         <meta-data
             android:name="android.support.VERSION"
