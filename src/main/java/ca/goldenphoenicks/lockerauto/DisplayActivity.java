@@ -43,8 +43,6 @@ public class DisplayActivity extends AppCompatActivity implements View.OnClickLi
         try
         {
             res = new DisplayActivity.GetPin().execute().get();
-
-
         }
         catch(Exception e)
         {

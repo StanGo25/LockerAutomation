@@ -122,7 +122,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 } catch (ExecutionException e) {
                     e.printStackTrace();
                 }
-                if (!(validate.contains(uname.getText().toString()))) {
+                if ((!(validate.contains(uname.getText().toString()))) || validate.isEmpty()) {
                     Context context = getApplicationContext();
 
                     CharSequence text = getString(R.string.validate_err);
@@ -268,5 +268,36 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             return null;
         }
     }
+    class setLock extends AsyncTask<String,Void,String> {
+        @Override
+        protected String doInBackground(String... strings) {
+
+            String result = "";
+            HttpURLConnection urlConnection=null;
+            String validateUrl = "http://munro.humber.ca/~n01116269/lock.php?p_stat=" + strings[0]+"&u_name="+strings[1];
+
+            try {
+                URL url = new URL(validateUrl);
+                urlConnection =(HttpURLConnection)url.openConnection();
+                InputStream is = new BufferedInputStream(urlConnection.getInputStream());
+                BufferedReader br = new BufferedReader(new InputStreamReader(is));
+                String line ="";
+                while((line=br.readLine())!=null)
+                {
+                    result+=line;
+                }
+                is.close();
+                Log.i("Result",result);
+                return result;
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+            return null;
+        }
+    }
+
 }
 

@@ -8,6 +8,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.provider.Settings;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -22,26 +23,32 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.w3c.dom.Text;
+
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.concurrent.ExecutionException;
 
 import static android.widget.Toast.LENGTH_SHORT;
 
 public class MenuActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
 
     SharedPreferences pref;
     SharedPreferences.Editor editor;
 
     String username;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         try {
@@ -142,7 +149,7 @@ public class MenuActivity extends AppCompatActivity
         try
 
             {
-                res = new MenuActivity.GetPin().execute().get();
+                res = new MenuActivity.GetProducts().execute().get();
             }
         catch(
             Exception e)
@@ -152,26 +159,41 @@ public class MenuActivity extends AppCompatActivity
             }
 
 
-        if(res.contains("1"))
-
-            {
-                nav_item1.setEnabled(true);
-            }
-        if(res.contains("2"))
-
-            {
-                nav_item2.setEnabled(true);
-            }
-            if(res.contains("3"))
-
-            {
-                nav_item3.setEnabled(true);
-            }
+//        if(res.contains("1"))
+//
+//            {
+//                nav_item1.setEnabled(true);
+//            }
+//        if(res.contains("2"))
+//
+//            {
+//                nav_item2.setEnabled(true);
+//            }
+//
+//        if(res.contains("3"))
+//            {
+//                nav_item3.setEnabled(true);
+//            }
         }catch(Exception e)
         {
             Toast.makeText(MenuActivity.this, "Failed to Connect...", LENGTH_SHORT).show();
             e.printStackTrace();
         }
+        Button door=(Button) findViewById(R.id.dButt2);
+
+        door.setOnClickListener(this);
+
+        String display="";
+        try {
+            display = new GetStat().execute().get();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            e.printStackTrace();
+        }
+
+        TextView displayStat = (TextView)findViewById(R.id.displayView);
+        displayStat.setText(display);
 
     }
 
@@ -183,6 +205,144 @@ public class MenuActivity extends AppCompatActivity
 //        }
 
 
+    @Override
+    public void onClick(View view) {
+        String res = null;
+
+        Button door=(Button) findViewById(R.id.dButt2);
+
+        if(door.getText().equals("Open"))
+        {
+            try {
+                res=new setLock().execute("4",pref.getString("u_name","")).get();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } catch (ExecutionException e) {
+                e.printStackTrace();
+            }
+
+            new setDoor().execute("2");
+            door.setText("Close");
+            door.setEnabled(false);
+
+            String display="";
+            try {
+                display = new GetStat().execute().get();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } catch (ExecutionException e) {
+                e.printStackTrace();
+            }
+
+            TextView displayStat = (TextView)findViewById(R.id.displayView);
+            displayStat.setText(display);
+
+        } else {
+            new setDoor().execute("0");
+            door.setText("Open");
+            door.setEnabled(false);
+
+            String display="";
+            try {
+                display = new GetStat().execute().get();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } catch (ExecutionException e) {
+                e.printStackTrace();
+            }
+
+            TextView displayStat = (TextView)findViewById(R.id.displayView);
+            displayStat.setText(display);
+
+        }
+
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            res = new setLock().execute("3",pref.getString("u_name","")).get();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            e.printStackTrace();
+        }
+        new setDoor().execute("1");
+
+        String display="";
+        try {
+            display = new GetStat().execute().get();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            e.printStackTrace();
+        }
+
+        TextView displayStat = (TextView)findViewById(R.id.displayView);
+        displayStat.setText(display);
+
+        door.setEnabled(true);
+    }
+
+    class setLock extends AsyncTask<String,Void,String> {
+        @Override
+        protected String doInBackground(String... strings) {
+
+            String result = "";
+            HttpURLConnection urlConnection = null;
+            String validateUrl = "http://munro.humber.ca/~n01116269/lock.php?p_stat=" + strings[0]+ "&u_name=" + strings[1];
+
+            try {
+                URL url = new URL(validateUrl);
+                urlConnection = (HttpURLConnection) url.openConnection();
+                InputStream is = new BufferedInputStream(urlConnection.getInputStream());
+                BufferedReader br = new BufferedReader(new InputStreamReader(is));
+                String line = "";
+                while ((line = br.readLine()) != null) {
+                    result += line;
+                }
+                is.close();
+                Log.i("Result", result);
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            return result;
+        }
+    }
+
+    class setDoor extends AsyncTask<String,Void,String> {
+        @Override
+        protected String doInBackground(String... strings) {
+            String result = "";
+            HttpURLConnection urlConnection=null;
+            String validateUrl = "http://munro.humber.ca/~n01116269/door.php?p_stat=" + Integer.parseInt(strings[0])+"&u_name="+ pref.getString("u_name", "");
+
+            try {
+                URL url = new URL(validateUrl);
+                urlConnection =(HttpURLConnection)url.openConnection();
+                InputStream is = new BufferedInputStream(urlConnection.getInputStream());
+                BufferedReader br = new BufferedReader(new InputStreamReader(is));
+                String line ="";
+                while((line=br.readLine())!=null)
+                {
+                    result+=line;
+                }
+                is.close();
+                Log.i("Result",result);
+                return result;
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+            return null;
+        }
+    }
 
 
     @Override
@@ -264,8 +424,7 @@ public class MenuActivity extends AppCompatActivity
     }
 
 
-    class GetPin extends AsyncTask<String,Void,String> {
-
+    class GetProducts extends AsyncTask<String,Void,String> {
 
         @Override
         protected String doInBackground(String... strings) {
@@ -294,6 +453,36 @@ public class MenuActivity extends AppCompatActivity
             return null;
         }
     }
+    class GetStat extends AsyncTask<String,Void,String> {
 
+        @Override
+        protected String doInBackground(String... strings) {
+
+            String result = "";
+            HttpURLConnection urlConnection = null;
+            String validateUrl = "http://munro.humber.ca/~n01116269/display.php?u_name=" + pref.getString("u_name", "");
+            try {
+                URL url = new URL(validateUrl);
+                urlConnection = (HttpURLConnection) url.openConnection();
+                InputStream is = new BufferedInputStream(urlConnection.getInputStream());
+                BufferedReader br = new BufferedReader(new InputStreamReader(is));
+                String line = "";
+
+                while((line = br.readLine())!=null)
+                {
+                    result+=line;
+                }
+                is.close();
+                Log.i("Result",result);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            StringBuilder sb = new StringBuilder();
+            sb.append(result);
+            String realRes = sb.toString().replaceAll("\\<.*?>","");
+
+            return realRes;
+        }
+    }
 
 }
